@@ -1,0 +1,3 @@
+# ivy.yaml
+SystemDb:
+  Url: jdbc:mysql://db:3306/AxonIvySystemDatabase

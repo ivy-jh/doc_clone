@@ -1,0 +1,39 @@
+Variables:
+  # This is the end-user doc for 'myTextVar', describing it's value and use-case.
+  myTextVar: value
+
+  # This is a boolean variable
+  myBooleanVar: false
+
+  # This is a number variable
+  myNumberVar: 123456
+
+  # This is a password variable
+  # [password]
+  myPasswordVar: mySecret
+
+  # This is a daytime variable
+  # [daytime]
+  myDaytimeVar: '13:37'
+
+  # This is a enum variable with possible predefined values
+  # [enum: hi, hello, hallo, ciao, salut]
+  myEnumVar: hi
+
+  # This is a file variable. 
+  # It's perfect to contain large and complex datas, 
+  #  as the value is not defined in variables.yaml directly. 
+  #  Rather it's value is loaded
+  #  from an external file, which is located 
+  #  at (<project>/config/variables/myFileVar.json).
+  # The file extensions 'json' and 'txt' are supported.
+  # [file: json]
+  myFileVar: 
+
+  # wrapper for complex files stored in a sub-directory
+  myAppSettings:
+    # The value of this variable is read from the file
+    #  (<project>/config/variables/myAppSettings/myStatisticPrefs.json)
+    # [file: json]
+    myStatisticPrefs:
+

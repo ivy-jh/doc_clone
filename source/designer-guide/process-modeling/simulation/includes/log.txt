@@ -1,0 +1,5 @@
+ivy.log.error("This is an error");
+ivy.log.debug("This is a debug message");
+ivy.log.fatal("This is a fatal message");
+ivy.log.warn("This is a warning");
+ivy.log.info("This is an info message");

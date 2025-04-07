@@ -1,0 +1,25 @@
+digraph overview {
+  layout=neato;
+  
+  node [shape=box, height="0.8", width="2", color="#007095", style=filled, fixedsize="true", margin=0, 
+        fontname="Roboto,Helvetica Neue,Arial,sans-serif", fontcolor="white", fontsize=15
+       ]; 
+  
+  /* nodes */
+  browser      [label="Browser",                pos="0.0,2.5!", height="0.8", width="1.5"];
+  reverseproxy [label="Reverse\nProxy",         pos="3.0,2.5!", height="0.8", width="1.5"];
+  engine       [label="Axon Ivy\nEngine",       pos="6.0,2.5!", height="0.8", width="1.5", color="#C7D426", fontcolor="black"];
+
+
+  hostProxy [label="Host Reverse Proxy",        pos="3.0,2.6!", height="1.4", width="2.0", style="dashed" fontcolor="black" labelloc="t"];
+  hostEngine [label="Host Axon Ivy Engine",     pos="6.0,2.6!", height="1.4", width="2.0", style="dashed" fontcolor="black" labelloc="t"];
+ 
+  /* edges */
+  browser -> reverseproxy;
+  reverseproxy -> engine;
+
+  /* edge labels */
+  browser_reverseproxy [label="HTTPS\n \n ",   pos="1.5,2.5!", height="0.8", width="1.7", shape=none, fillcolor=none, fontcolor="black", fontsize="11"];
+  reverseproxy_engine [label="HTTP\n \nHTTPS", pos="4.5,2.5!", height="0.8", width="1.7", shape=none, fillcolor=none, fontcolor="black", fontsize="11"];
+
+}

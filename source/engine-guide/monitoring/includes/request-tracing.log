@@ -1,0 +1,8 @@
+[2020-09-15 11:17:29.621][DEBUG][ch.ivyteam.ivy.performance.request][http-nio-8080-exec-10]{requestId=61}
+Entry url=http://localhost:8080/system/ client=127.0.0.1 session=4 httpsession=71902C0036745F320CAAD55AFA85A281
+[2020-09-15 11:17:29.630][DEBUG][ch.ivyteam.ivy.db][http-nio-8080-exec-10]{requestId=61, client=127.0.0.1, executionContext=SYSTEM}
+Execute database statement SELECT * FROM IWA_ACCESSCONTROL 
+[2020-09-15 11:17:29.630][DEBUG][ch.ivyteam.ivy.db][http-nio-8080-exec-10]{requestId=61, client=127.0.0.1, executionContext=SYSTEM}
+Executed database statement successfully in 0 milli seconds 
+[2020-09-15 11:17:29.637][DEBUG][ch.ivyteam.ivy.performance.request][http-nio-8080-exec-10]{requestId=61}
+Exit url=http://localhost:8080/system/ client=127.0.0.1 session=4 httpsession=71902C0036745F320CAAD55AFA85A281 took 16ms

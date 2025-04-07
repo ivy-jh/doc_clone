@@ -1,0 +1,3 @@
+# app.yaml located in e.g. <configuration>/applications/myApp/app.yaml
+Jsf:
+  primefaces.theme: modena-ivy

@@ -1,0 +1,17 @@
+digraph overview {
+  layout=neato;
+
+  node [shape=box, height="0.8", width="2", color="#007095", style=filled, fixedsize="true", margin=0, 
+        fontname="Roboto,Helvetica Neue,Arial,sans-serif", fontcolor="white", fontsize=15
+       ]; 
+       
+  /* nodes */
+  engine [label="Axon Ivy\nEngine",      pos="0.0,2.5!", height="0.8", width="1.5", color="#C7D426", fontcolor="black"];
+  opensearch [ label="Opensearch", pos="3.0,2.5!", height="0.8", width="1.5",]
+  
+  /* edges */
+  engine -> opensearch;
+  
+  /* edge labels */
+    engine_opensearch [label="HTTP\n \nHTTPS", pos="1.5,2.5!", shape=none, fillcolor=none, fontsize="11"];
+}

@@ -1,0 +1,5 @@
+# sample ivy.yaml which defines a single administrative account:
+Administrators:
+  admin:
+    Password: 1234
+    Email: sudo@acme.com

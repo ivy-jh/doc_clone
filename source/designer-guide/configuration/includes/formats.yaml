@@ -1,0 +1,79 @@
+Formats:
+
+  # for strings you can only define script
+  # whereas value will be replaced with the value itself
+  String:
+    myStringFormat:
+      Script: '"Hello " + value"'
+
+  # for boolean you can only define script
+  # whereas value will be replaced with the value itself
+  Boolean: 
+    myBooleanFormat:
+      Script: '"Hello " + value"'
+
+  Number:
+    # will truncate decimal places
+    myNumberIntegerFormat:
+      Type: integer
+
+    # can be used to define integer and fraction part
+    myNumberNumberFormat:
+      Type: number
+      IntegerDigits: 3
+      FractionDigits: 4
+      Grouping: true
+    
+    # for currency
+    myNumberCurrencyFormat:
+      Type: currency
+      IntegerDigits: 3
+      FractionDigits: 4
+      Grouping: true
+    
+    # for percent
+    myNumberPercentFormat:
+      Type: percent
+      IntegerDigits: 3
+      FractionDigits: 4
+      Grouping: true
+
+    # do whatever it needs with script
+    myNumberScriptFormat:
+      Type: script
+      Script: '"Hello " + value"'
+  
+    # use a pattern
+    myNumberPatternFormat:
+      Type: pattern
+      Pattern: "#,#00.0#"
+  
+  # for date you can define a script or a pattern
+  Date:
+    myDateScriptFormat:
+      Type: script
+      Script: '"Hello " + value"'
+  
+    myDatePatternFormat:
+      Type: pattern
+      Pattern: "EEEE dd. MMMM yyyy"
+
+  # for datetime you can define a script or a pattern
+  DateTime:
+    myDateTimeScriptFormat:
+      Type: script
+      Script: '"Hello " + value"'
+  
+    myDateTimePatternFormat:
+      Type: pattern
+      Pattern: "EEEE dd. MMMM yyyy, HH:mm:ss"
+
+  # for time you can define a script or a pattern
+  Time:
+    myTimeScriptFormat:
+      Type: script
+      Script: '"Hello " + value"'
+  
+    myTimePatternFormat:
+      Type: pattern
+      Pattern: "HH:mm:ss:SSS"

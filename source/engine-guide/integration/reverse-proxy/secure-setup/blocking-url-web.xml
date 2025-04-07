@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+   ...
+    <security-constraint>
+      <display-name>Restrict access to system</display-name>
+        <web-resource-collection>
+          <web-resource-name>System</web-resource-name>
+          <url-pattern>/system/*</url-pattern>
+        </web-resource-collection>
+      <auth-constraint />
+    </security-constraint>
+   ...
+</web-app>

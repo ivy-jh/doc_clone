@@ -1,0 +1,11 @@
+digraph hrapp {
+  layout=neato;
+
+  node [shape=box, height="0.8", width="2", color="#007095", style=filled, fixedsize="true", margin=0, 
+        fontname="Roboto,Helvetica Neue,Arial,sans-serif", fontcolor="white", fontsize=15
+       ]; 
+    
+  /* nodes */
+  hrapp [ label="HR Application",               pos="0.0,0.0!",   width="2.5" height="1.5" style="dashed" fontcolor="black" labelloc="t"];
+  newemployee [label="Expense Report\nProject", pos="0.0,-0.05!", width="1.8" height="0.8"];
+}

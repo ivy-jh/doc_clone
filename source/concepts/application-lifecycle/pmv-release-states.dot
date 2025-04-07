@@ -1,0 +1,37 @@
+digraph overview {
+  layout=neato;
+ 
+  node [shape=box, height="0.8", width="2", color="#007095", style=filled, fixedsize="true", margin=0, 
+        fontname="Roboto,Helvetica Neue,Arial,sans-serif", fontcolor="white", fontsize=15
+       ]; 
+  
+  /* nodes */
+  start      [ label="START",           pos="0,0!", height="0.2", width="0.2", shape="point"];
+  prepared   [ label="PREPARED\n(0)",   pos="2,0!", height="0.8", width="1.5"];
+  released   [ label="RELEASED\n(1)",   pos="5,0!", height="0.8", width="1.5"];
+  deprecated [ label="DEPRECATED\n(2)", pos="8,-1!", height="0.8", width="1.5"]
+  archived   [ label="ARCHIVED\n(3)",   pos="5,-2!", height="0.8", width="1.5"]
+  deleted    [ label="DELETED\n(4)",    pos="2,-2!", height="0.8", width="1.5"]
+
+  /* edges */
+  start -> prepared;
+  prepared -> released;
+  released -> deprecated;
+  prepared -> deleted;
+  deprecated -> released;
+  deprecated -> archived;
+  archived -> deleted;
+  archived -> released;
+  released -> archived;
+
+  /* edge labels */  
+  prepared_released   [ label="release",                   pos="3.5,0.2!", width="1.7", height="0.8", shape=none, fillcolor=none, fontcolor="black", fontsize="11" ];
+  released_deprecated [ label="deprecate [running cases]", pos="7.2,-0.2!", width="1.7", height="0.8", shape=none, fillcolor=none, fontcolor="black", fontsize="11" ];
+  deprecated_released [ label="release",                   pos="6.5,-0.8!", width="1.7", height="0.8", shape=none, fillcolor=none, fontcolor="black", fontsize="11" ];
+  prepared_deleted    [ label="delete",                    pos="1.7,-1.0!", width="1.7", height="0.8", shape=none, fillcolor=none, fontcolor="black", fontsize="11" ];
+  deprecated_archived [ label="[no running cases]",        pos="6.8,-1.8!", width="1.7", height="0.8", shape=none, fillcolor=none, fontcolor="black", fontsize="11" ];
+  archived_deleted    [ label="delete",                    pos="3.5,-1.78!", width="1.7", height="0.8", shape=none, fillcolor=none, fontcolor="black", fontsize="11" ];
+
+  archived_released   [ label="release",                      pos="4.5,-1!", width="1.7", height="0.8", shape=none, fillcolor=none, fontcolor="black", fontsize="11" ];
+  released_archived   [ label="deprecate\n[no running cases]", pos="5.8,-1!", width="1.7", height="0.8", shape=none, fillcolor=none, fontcolor="black", fontsize="11" ];
+}

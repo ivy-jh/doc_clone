@@ -1,0 +1,8 @@
+# sample ivy.yaml that configures an email server:
+EMail:
+  Server:
+    Host: mail.axonivy.com
+    Port: 25
+    MailAddress: noreply@axonivy.com
+    User: someuser
+    Password: somepassword

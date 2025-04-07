@@ -1,0 +1,6 @@
+# ivy.yaml located in e.g. <configuration>/ivy.yaml
+SecuritySystems:
+  default:
+    Language:
+      Content: de
+      Formatting: de_CH

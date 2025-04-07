@@ -1,0 +1,17 @@
+# sample ivy.yaml with some often used entries defined
+SystemDb:
+  Url: jdbc:mariadb://myDbHost:3306/AxonIvySystemDatabase
+  UserName: root
+  Password: 1234
+Administrators:
+  admin:
+    Password: "${hash:1234}"
+    Email: info@localhost
+  devop:
+    Password: "${hash:4321}"
+    Email: dev@axonivy.com
+EMail:
+  Server:
+    Host: smtp.gmail.com
+    Port: 25
+BaseUrl: http://workflow.acme.com

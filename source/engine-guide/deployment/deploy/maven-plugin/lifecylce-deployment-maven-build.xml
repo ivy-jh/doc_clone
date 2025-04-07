@@ -1,0 +1,17 @@
+<plugin>
+  <groupId>com.axonivy.ivy.ci</groupId>
+  <artifactId>project-build-plugin</artifactId>
+  <extensions>true</extensions>
+  <configuration>
+    <deployToEngineApplication>Portal</deployToEngineApplication>
+    <deployEngineDirectory>c:/axonivy/engine</deployEngineDirectory>
+  </configuration>
+  <executions>
+    <execution>
+      <id>deploy.to.engine</id>
+      <goals><goal>deploy-to-engine</goal></goals>
+      <!-- Bind goal to maven site-deploy phase -->
+      <phase>site-deploy</phase> 
+    </execution>
+  </executions>
+</plugin>

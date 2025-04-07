@@ -1,0 +1,21 @@
+digraph overview {
+  layout=neato;
+ 
+  node [shape=box, height="0.8", width="2", color="#007095", style=filled, fixedsize="true", margin=0, 
+        fontname="Roboto,Helvetica Neue,Arial,sans-serif", fontcolor="white", fontsize=15
+       ]; 
+  
+  /* nodes */
+  browser [ label="Browser",           pos="0,0!", height="0.8", width="1.5"];
+  engine [label="Axon Ivy\nEngine",    pos="3,0!", height="0.8", width="1.5", color="#C7D426", fontcolor="black"];
+  systemdb [ label="System\nDatabase", pos="6,0!", height="0.8", width="1.5"]
+
+  /* edges */
+  browser -> engine;
+  engine -> systemdb;
+
+  /* edge labels */  
+  browser_engine [ label="HTTP(S)\n \n ", pos="1.5,0!", width="1.7", height="0.8", shape=none, fillcolor=none, fontcolor="black", fontsize="11" ];
+  engine_systemdb [ label="JDBC\n \n ",   pos="4.5,0!", width="1.7", height="0.8", shape=none, fillcolor=none, fontcolor="black", fontsize="11" ];
+}
+

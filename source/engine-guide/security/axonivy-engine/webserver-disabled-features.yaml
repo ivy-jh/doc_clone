@@ -1,0 +1,16 @@
+# ivy.webserver.yaml with all optional features disabled
+REST.Servlet:     
+  # If none of the deployed projects provide REST APIs it is also possible to disable the whole REST servlet 
+  Enabled: false
+     
+  # REST resources provided by the Axon Ivy Engine under '/{securityContext}/api/workflow'
+  # If no thirdparties need to access the Axon Ivy Engine via the REST API you can disable it.
+  API: false
+
+  # REST resource for remote deployment under '/system/api/apps/{application}' 
+  # If remote deployment is not used on your engine you can disable it
+  # The REST Deployment is used from the deployment feature of the Engine Cockpit
+  Deployment: false
+
+# If the Mobile Offline Dialogs are not used on your engine (most of the time) you can disable them
+OfflineDialog.Enabled: false

@@ -1,0 +1,12 @@
+digraph financeapp {
+  layout=neato;
+
+  node [shape=box, height="0.8", width="2", color="#007095", style=filled, fixedsize="true", margin=0, 
+        fontname="Roboto,Helvetica Neue,Arial,sans-serif", fontcolor="white", fontsize=15
+       ]; 
+    
+  /* nodes */
+  financeapp [label="Finance Application",      pos="0,0.0!", width=2.5, height=2.5, style="dashed", fontcolor="black", labelloc="t"];
+  sendinvoice [label="Credit Request\nProject", pos="0,0.4!", width=1.8, height=0.8];
+  newinvoice [label="New Invoice\nProject"      pos="0,-0.6!", width=1.8, height=0.8];
+}

@@ -1,0 +1,11 @@
+<plugin>
+  <groupId>com.axonivy.ivy.ci</groupId>
+  <artifactId>project-build-plugin</artifactId>
+  <extensions>true</extensions>
+  <configuration>
+    <deployToEngineApplication>portal</deployToEngineApplication>
+    <deployMethod>HTTP</deployMethod>
+    <deployServerId>serverId</deployServerId>
+    <deployEngineUrl>http://localhost:8080/</deployEngineUrl>
+  </configuration>
+</plugin>

@@ -1,0 +1,28 @@
+digraph engine {
+  layout=neato;
+
+  node [shape=box, height="0.8", width="2", color="#007095", style=filled, fixedsize="true", margin=0, 
+        fontname="Roboto,Helvetica Neue,Arial,sans-serif", fontcolor="white", fontsize=15
+       ]; 
+   
+  /* nodes */
+  engine [ label="|ivy-engine|",         pos="0.0,0.0!",   width="6.0", height="5.0", style="dashed", fontcolor="black", labelloc="t"];
+  default [ label="default",                pos="0.0,-0.1!",  width="5.5", height="4.5", style="dashed", fontcolor="black", labelloc="b"];
+
+  processes [ label="Processes",            pos="0.0,0.0!",   width="5.0", height="0.5" ];
+  tasklist [ label="Task list",             pos="0.0,-0.7!",  width="5.0", height="0.5" ];
+
+  hrapp [ label="HR Application",           pos="-1.35,-1.5!", width="2.3", height="0.5" ];
+  financeapp [ label="Finance Application", pos="1.35,-1.5!",  width="2.3", height="0.5" ];
+
+  users [ label="Users",                    pos="0.0,1.5!",    width="5.0", height="0.5", style="dashed" fontcolor="black" labelloc="t"];
+  roles [ label="Roles",                    pos="0.0,0.8!",    width="5.0", height="0.5", style="dashed" fontcolor="black" labelloc="t"];
+
+  bob [ shape="ellipse" label="Bob",        pos="-1.0,1.5!",   width="0.7", height="0.35"];
+  marc [ shape="ellipse" label="Marc",      pos="1.0,1.5!",    width="0.7", height="0.35"];
+  rick [ shape="ellipse" label="Rick",      pos="1.8,1.5!",    width="0.7", height="0.35"];
+  james [ shape="ellipse" label="James",    pos="-1.8,1.5!",   width="0.7", height="0.35"];
+
+  hrmanager [ shape="ellipse" label="HR Manager", pos="-1.4,0.8!" width="1.7", height="0.35"];
+  backoffice [ shape="ellipse" label="Backoffice", pos="1.4,0.8!" width="1.7", height="0.35"];
+}

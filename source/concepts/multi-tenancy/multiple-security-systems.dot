@@ -1,0 +1,31 @@
+digraph engine {
+  layout=neato;
+
+  node [shape=box, height="0.8", width="2", color="#007095", style=filled, fixedsize="true", margin=0, 
+        fontname="Roboto,Helvetica Neue,Arial,sans-serif", fontcolor="white", fontsize=15
+       ]; 
+    
+  /* nodes */
+  engine [ label="|ivy-engine|", pos="0,0!" width=6 height=4.5 style="dashed" fontcolor="black" labelloc="t"];
+
+  tenant1 [ label="Tenant 1", pos="-1.9,-0.1!" width=1.85 height=4.0 style="dashed" fontcolor="black" labelloc="b"];
+  users1 [ label="Users", pos="-1.9,1.4!" width=1.7 height=0.5 style="dashed" fontcolor="black"];
+  roles1 [ label="Roles", pos="-1.9,0.7!" width=1.7 height=0.5 style="dashed" fontcolor="black"];
+  processes1 [ label="Processes", pos="-1.9,0.0!" width=1.7 height=0.5 ];
+  tasklist1 [ label="Task list", pos="-1.9,-0.7!" width=1.7 height=0.5 ];
+  applications1 [ label="Applications", pos="-1.9,-1.4!" width=1.7 height=0.5 ];
+
+  tenant2 [ label="Tenant 2", pos="0,-0.1!" width=1.85 height=4.0 style="dashed" fontcolor="black" labelloc="b"];
+  users2 [ label="Users", pos="0.0,1.4!" width=1.7 height=0.5 style="dashed" fontcolor="black"];
+  roles2 [ label="Roles", pos="0.0,0.7!" width=1.7 height=0.5 style="dashed" fontcolor="black"];
+  processes2 [ label="Processes", pos="0.0,0.0!" width=1.7 height=0.5 ];
+  tasklist2 [ label="Task list", pos="0.0,-0.7!" width=1.7 height=0.5 ];
+  applications2 [ label="Applications", pos="0.0,-1.4!" width=1.7 height=0.5 ];
+
+  tenantN [ label="Tenant N", pos="1.9,-0.1!" width=1.85 height=4.0 style="dashed" fontcolor="black" labelloc="b"];
+  usersN [ label="Users", pos="1.9,1.4!" width=1.7 height=0.5 style="dashed" fontcolor="black"];
+  rolesN [ label="Roles", pos="1.9,0.7!" width=1.7 height=0.5 style="dashed" fontcolor="black"];
+  processesN [ label="Processes", pos="1.9,0.0!" width=1.7 height=0.5 ];
+  tasklistN [ label="Task list", pos="1.9,-0.7!" width=1.7 height=0.5 ];
+  applicationsN [ label="Applications", pos="1.9,-1.4!" width=1.7 height=0.5 ];
+}

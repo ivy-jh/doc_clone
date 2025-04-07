@@ -1,0 +1,26 @@
+# sample ivy.yaml that configures the web channel
+SecuritySystems:
+  default:
+    Notification:
+      Cleanup:
+        # notifications older than this will be deleted on a daily basis
+        DaysUntilDeletion: 90
+      #Decision whether a mail notification should be sent to an absent user.
+      #possible values are 'always', 'never' and 'noActiveSubsitute'
+      NotifyAbsentUser: always
+      Channels:
+        # each channel has it's own identifier
+        web:
+          # name of the channel to identify which channel it is
+          Name: web
+          # each channel can be enabled/disabled
+          Enabled: true
+          # each channel can define which events are subscribed by default
+          Events:
+            # if enabled, all events are subscribed
+            # otherwise, only events mentioned under 'Kinds' are subscribed
+            # possible values are 'enabled' and 'disabled'
+            AllKinds: enabled
+            # array of subscribed events
+            Kinds:
+            - new-task

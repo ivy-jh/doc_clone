@@ -1,0 +1,33 @@
+digraph engine {
+  layout=neato;
+
+  node [shape=box, height="0.8", width="2", color="#007095", style=filled, fixedsize="true", margin=0, 
+        fontname="Roboto,Helvetica Neue,Arial,sans-serif", fontcolor="white", fontsize=15
+       ]; 
+    
+  /* nodes */
+  kubernetes [ label="Kubernetes", pos="0,0!" width=7 height=4.7 style="dashed" fontcolor="black" labelloc="t"];
+
+  engine1 [ label="|ivy-engine|\nContainer Tenant 1", pos="-2,0.0!" width=2 height=4 style="dashed" fontcolor="black" labelloc="t"];
+  engine2 [ label="|ivy-engine|\nContainer Tenant 2", pos="0,0.0!"  width=2 height=4 style="dashed" fontcolor="black" labelloc="t"];
+  engineN [ label="|ivy-engine|\nContainer Tenant N", pos="2,0.0!"  width=2 height=4 style="dashed" fontcolor="black" labelloc="t"];
+
+  users1        [ label="Users",                         pos="-2,1.2!",  width="1.7", height="0.5", style="dashed" fontcolor="black"];
+  roles1        [ label="Roles",                         pos="-2,0.5!",  width="1.7", height="0.5", style="dashed" fontcolor="black"];
+  processes1    [ label="Processes",                     pos="-2,-0.2!", width="1.7", height="0.5"];
+  tasklist1     [ label="Task list",                     pos="-2,-0.9!", width="1.7", height="0.5"];
+  applications1 [ label="Applications",                  pos="-2,-1.6!", width="1.7", height="0.5"];
+
+  users2        [ label="Users",                         pos="0,1.2!",  width="1.7", height="0.5", style="dashed" fontcolor="black"];
+  roles2        [ label="Roles",                         pos="0,0.5!",  width="1.7", height="0.5", style="dashed" fontcolor="black"];
+  processes2    [ label="Processes",                     pos="0,-0.2!", width="1.7", height="0.5"];
+  tasklist2     [ label="Task list",                     pos="0,-0.9!", width="1.7", height="0.5"];
+  applications2 [ label="Applications",                  pos="0,-1.6!", width="1.7", height="0.5"];
+
+  usersN        [ label="Users",                         pos="2,1.2!",  width="1.7", height="0.5", style="dashed" fontcolor="black"];
+  rolesN        [ label="Roles",                         pos="2,0.5!",  width="1.7", height="0.5", style="dashed" fontcolor="black"];
+  processesN    [ label="Processes",                     pos="2,-0.2!", width="1.7", height="0.5"];
+  tasklistN     [ label="Task list",                     pos="2,-0.9!", width="1.7", height="0.5"];
+  applicationsN [ label="Applications",                  pos="2,-1.6!", width="1.7", height="0.5"];
+
+}

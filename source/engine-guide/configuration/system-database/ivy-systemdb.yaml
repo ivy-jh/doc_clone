@@ -1,0 +1,5 @@
+# sample ivy.yaml that configures a MySQL database as data store
+SystemDb:
+  Url: jdbc:mysql://myOtherMysql:3306/AxonIvySystemDatabase
+  UserName: theUser
+  Password: myPassword

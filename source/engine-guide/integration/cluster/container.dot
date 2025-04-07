@@ -1,0 +1,34 @@
+digraph overview {
+  layout=neato;
+
+  node [shape=box, height="0.8", width="2", color="#007095", style=filled, fixedsize="true", margin=0, 
+        fontname="Roboto,Helvetica Neue,Arial,sans-serif", fontcolor="white", fontsize=15
+       ]; 
+   
+  /* nodes */
+  dockerhub [ label="Docker Hub",           pos="4.5,7!", height="0.8", width="1.5"];
+  git [ label="Git Repository",             pos="0,7!", height="0.8", width="1.5"];
+  build [ label="Build Server",             pos="2.5,5.0!", height="0.8", width="1.5"];
+  dockerregistry [ label="Docker\nRegistry", pos="2.5,3.5!", height="0.8", width="1.5"];
+  
+    /* this is a kludge, should be a subgraph but won't display as we'd like, so create the "subgraph" ourselves by positioning the elements */
+  cluster [ label="Axon Ivy Cluster",       pos="6.5,3.5!", height="3.5", width="1.8", style="dashed", fontcolor="black", labelloc="t", fontsize=17];
+  engine1 [ label="Node 1",                 pos="6.5,4.4!", height="0.8", width="1.5", color="#C7D426", fontcolor="black"];
+  engine2 [ label="Node 2",                 pos="6.5,3.5!", height="0.8", width="1.5", color="#C7D426", fontcolor="black"];
+  enginespacer [label="...",                pos="6.5,2.9!", height="0.8", width="1.5", shape=none, fillcolor=none, fontcolor=black];
+  enginen [ label="Node n",                 pos="6.5,2.3!", height="0.8", width="1.5", color="#C7D426", fontcolor="black"];
+ 
+  
+  /* edges */
+  dockerhub -> build;
+  git -> build;
+  build -> dockerregistry; 
+  dockerregistry -> cluster;
+
+  /* edge labels*/
+  dockerhub_build [ label="axonivy/axonivy-engine",                 pos="4.5,6.0!", shape=none, fillcolor=none, fontcolor=black, fontsize=11];
+  git_build [ label="Projects\nConfiguration\nDockerfile",          pos="0.5,6.0!", shape=none, fillcolor=none, fontcolor=black, fontsize=11];
+  build_dockerregistry [ label="your-company/your-project\n \n ",   pos="1.4,4.05!", shape=none, fillcolor=none, fontcolor=black, fontsize=11] 
+  dockerregistry_cluster [ label="your-company/your-project\n \n ", pos="4.4,3.5!", shape=none, fillcolor=none, fontcolor=black, fontsize=11];
+  
+}

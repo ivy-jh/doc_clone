@@ -1,0 +1,217 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>ch.ivyteam.doc</groupId>
+  <artifactId>doc-product</artifactId>
+  <version>13.1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Axon Ivy Platform</name>
+
+  <properties>
+    <ivy-version>13.1.0-SNAPSHOT</ivy-version>
+    <images.folder>source/_images</images.folder>
+    <includes.target.folder>${project.build.directory}/resources/includes</includes.target.folder>
+    <engine.guide.url>https://developer.axonivy.com/doc/${doc.version}/engine-guide</engine.guide.url>
+    <designer.guide.url>https://developer.axonivy.com/doc/${doc.version}/designer-guide</designer.guide.url>
+  </properties>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>nexus.ivyteam.io</id>
+      <url>https://nexus.ivyteam.io/repository/maven/</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <repositories>
+    <repository>
+      <id>nexus.ivyteam.io</id>
+      <url>https://nexus.ivyteam.io/repository/maven/</url>
+      <snapshots>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>flatten-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>unpack-doc-images</id>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <phase>generate-resources</phase>
+            <configuration>
+              <outputDirectory>${images.folder}</outputDirectory>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>ch.ivyteam.doc</groupId>
+                  <artifactId>doc-images</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+
+                <artifactItem>
+                  <groupId>ch.ivyteam.doc</groupId>
+                  <artifactId>doc-screenshots-designer</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+
+                <artifactItem>
+                  <groupId>ch.ivyteam.doc</groupId>
+                  <artifactId>doc-screenshots-engine</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+
+                <artifactItem>
+                  <groupId>ch.ivyteam.process</groupId>
+                  <artifactId>process-editor-screenshots</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+
+                <artifactItem>
+                  <groupId>ch.ivyteam.dialog</groupId>
+                  <artifactId>form-editor-screenshots</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+
+                <artifactItem>
+                  <groupId>ch.ivyteam.variable</groupId>
+                  <artifactId>variable-editor-screenshots</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+
+                <artifactItem>
+                  <groupId>ch.ivyteam.dataclass</groupId>
+                  <artifactId>dataclass-editor-screenshots</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+
+                <artifactItem>
+                  <groupId>ch.ivyteam.ui.icons</groupId>
+                  <artifactId>ui-icons</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+
+                <artifactItem>
+                  <groupId>ch.ivyteam.neo</groupId>
+                  <artifactId>neo-designer-screenshots</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+
+          <execution>
+            <id>unpack-engine-cockpit-images</id>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <phase>generate-resources</phase>
+            <configuration>
+              <outputDirectory>${images.folder}/engine-cockpit</outputDirectory>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>ch.ivyteam.enginecockpit</groupId>
+                  <artifactId>engine-cockpit-selenium-test</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+
+          <execution>
+            <id>unpack-dev-wf-ui-images</id>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <phase>generate-resources</phase>
+            <configuration>
+              <outputDirectory>${images.folder}/dev-wf-ui</outputDirectory>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>ch.ivyteam.workflow</groupId>
+                  <artifactId>dev-workflow-ui-screenshots</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+
+          <execution>
+            <id>unpack-release-notes</id>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <phase>generate-resources</phase>
+            <configuration>
+              <outputDirectory>${includes.target.folder}</outputDirectory>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>ch.ivyteam.doc</groupId>
+                  <artifactId>doc-release-notes</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+
+          <execution>
+            <id>unpack-configuration-files</id>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <phase>generate-resources</phase>
+            <configuration>
+              <outputDirectory>${includes.target.folder}</outputDirectory>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>ch.ivyteam.doc</groupId>
+                  <artifactId>doc-config-files</artifactId>
+                  <version>${ivy-version}</version>
+                  <type>zip</type>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+        </executions>
+        <configuration>
+          <overWriteSnapshots>true</overWriteSnapshots>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>buildnumber-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-clean-plugin</artifactId>
+        <configuration>
+          <filesets>
+            <fileset>
+              <directory>${images.folder}</directory>
+            </fileset>
+          </filesets>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

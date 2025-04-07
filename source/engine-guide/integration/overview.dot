@@ -1,0 +1,49 @@
+digraph overview {
+  layout=neato;
+  
+  node [shape=box, height="0.8", width="2", color="#007095", style=filled, fixedsize="true", margin=0, 
+        fontname="Roboto,Helvetica Neue,Arial,sans-serif", fontcolor="white", fontsize=15
+       ]; 
+  
+  /* nodes */
+  browser         [ label="Browser",                           pos="0.4,2.5!", width="1"];
+
+  reverseProxy    [label="Reverse\nProxy",                     pos="2.7,2.5!", height="3.6", width="1.4", style="dashed", fontcolor="black", labelloc="t"];
+  frontendNginx   [label="NGINX",                              pos="2.7,3.5!", height="0.5", width="1.0", fontsize=11];
+  frontendApache  [label="Apache",                             pos="2.7,2.9!", height="0.5", width="1.0", fontsize=11];
+  frontendIIS     [label="IIS",                                pos="2.7,2.3!", height="0.5", width="1.0", fontsize=11];
+  frontendWAF     [label="WAF",                                pos="2.7,1.7!", height="0.5", width="1.0", fontsize=11];
+  frontendHA      [label="HA Proxy",                           pos="2.7,1.1!", height="0.5", width="1.0", fontsize=11];
+ 
+  engine          [label="Axon Ivy\nEngine",                   pos="5.4,2.5!", height="1.0", width="1.5", color="#C7D426", fontcolor="black"];
+  
+  userManagement  [label="User Management\n(optional)",        pos="5.4,0.4!", height="1.8", width="3.8" style="dashed" fontcolor="black" labelloc="t"];
+  eDirectory      [label="eDirectory",                         pos="4.8,-0.1!", height="0.5", width="1.1", fontsize=11];
+  activeDirectory [label="Active\nDirectory",                  pos="4.8,0.5!", height="0.5", width="1.1", fontsize=11];
+  entraID         [label="Microsoft\nEntra ID\n",              pos="6.0,0.5!", height="0.5", width="1.1", fontsize=11];
+  keycloak        [label="Keycloak",                           pos="6.0,-0.1!", height="0.5", width="1.1", fontsize=11];
+
+  systemdb        [label="System\nDatabase",                   pos="8.1,2.5!", height="3.6", width="1.4", style="dashed" fontcolor="black" labelloc="t"]
+  postgres        [label="PostgreSQL",                         pos="8.1,3.5!", height="0.5", width="1.0", fontsize=11]
+  mysql           [label="MySQL",                              pos="8.1,2.9!", height="0.5", width="1.0", fontsize=11]
+  mariadb         [label="MariaDB",                            pos="8.1,2.3!", height="0.5", width="1.0", fontsize=11]
+  mssql           [label="SQL Server",                         pos="8.1,1.7!", height="0.5", width="1.0", fontsize=11]
+  oracle          [label="Oracle",                             pos="8.1,1.1!", height="0.5", width="1.0", fontsize=11]
+
+  opensearch [ label="OpenSearch\n(optional)", pos="5.4,4.0!", height="0.8" width="1.5"]
+
+  /* edges */
+  browser -> reverseProxy;
+  reverseProxy -> engine;
+  engine -> userManagement;
+  engine -> systemdb;
+  engine -> opensearch;
+
+   /* edge labels */  
+  browser_reverseProxy [ label="HTTPS\n \n ",  pos = "1.3,2.5!", shape=none, fillcolor=none, fontcolor=black, fontsize=11];
+  reverseProxy_engine [ label="HTTP\n\nHTTPS", pos = "4.1,2.5!", shape=none, fillcolor=none, fontcolor=black, fontsize=11];
+  engine_userManagement [ label="LDAP\nREST",  pos = "5.7,1.7!", shape=none, fillcolor=none, fontcolor=black, fontsize=11];
+  engine_systemdb [ label="JDBC\n \n ",        pos = "6.6,2.5!", shape=none, fillcolor=none, fontcolor=black, fontsize=11];
+  engine_opensearch [label="HTTP\nHTTPS",   pos = "5.7,3.3!", shape=none, fillcolor=none, fontcolor=black, fontsize=11];
+  
+}

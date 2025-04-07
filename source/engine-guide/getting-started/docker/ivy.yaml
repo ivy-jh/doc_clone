@@ -1,0 +1,11 @@
+# ivy configuration file which defines the postgres
+# container as system database
+SystemDb:
+  Driver: org.postgresql.Driver
+  Url: jdbc:postgresql://postgres:5432/AxonIvySystemDatabase
+  UserName: admin
+  Password: 1234
+  Autoconvert: false
+Administrators:
+  admin:
+    Password: admin

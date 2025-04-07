@@ -1,0 +1,21 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] crm                                                                [iar]
+[INFO] crm.integration.tests                             [iar-integration-test]
+[INFO] crm.modules                                                        [pom]
+
+...
+
+[INFO] Reactor Summary for crm.modules 9.1.0-SNAPSHOT:
+[INFO] 
+[INFO] crm ................................................ SUCCESS [  5.872 s]
+[INFO] crm.integration.tests .............................. SUCCESS [ 29.015 s]
+[INFO] crm.modules ........................................ SUCCESS [  0.024 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  36.287 s
+[INFO] Finished at: 2020-07-16T08:56:53+02:00
+[INFO] ------------------------------------------------------------------------

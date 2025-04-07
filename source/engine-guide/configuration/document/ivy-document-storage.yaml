@@ -1,0 +1,6 @@
+# sample ivy.yaml that configures the local document storage
+SecuritySystems:
+  default:
+    DocumentStorage:
+      Name: local
+

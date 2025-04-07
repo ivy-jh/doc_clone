@@ -1,0 +1,20 @@
+.. _documents-s3:
+
+S3 Document Storage
+-------------------
+
+S3 is a highly reliable and scalable cloud object storage. S3 comes with a lot of different features
+like encryption, retention management, or versioning to only mention some of them.
+
+
+**Template**
+
+.. literalinclude:: ../../../../target/resources/includes/storage/s3/s3-blob-storage-template.yaml
+  :language: yaml
+  :linenos:
+
+**Reference**
+
+.. literalinclude:: ../../../../target/resources/includes/storage/s3/s3-blob-storage-reference.yaml
+  :language: yaml
+  :linenos:

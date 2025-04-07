@@ -1,0 +1,27 @@
+digraph overview {
+  layout=neato;
+  
+  node [shape=box, height="0.8", width="2", color="#007095", style=filled, fixedsize="true", margin=0, 
+        fontname="Roboto,Helvetica Neue,Arial,sans-serif", fontcolor="white", fontsize=15
+       ]; 
+    
+  /* nodes */
+  browser [label="Browser", pos="0.0,3.0!", height="0.8", width="1.5"];
+
+  waf [label="Web\nApplication\nFirewall (WAF)",   pos="3.5,3.0!", height="0.8", width="1.5"];
+  iam [label="Identity and\nAccess Management\n(IAM)", pos="3.5,1.5!", height="0.8", width="2.0"];
+  ad [label="Active\nDirectory" pos="3.5,0!" height=0.9 width=1.6];
+ 
+  engine [label="Axon Ivy\nEngine" pos="7,3!", height="0.8", width="1.5", color="#C7D426", fontcolor="black"];
+  
+  /* edges */
+  browser -> waf;
+  waf -> engine;
+  engine -> ad;
+  iam -> ad;
+  waf -> iam;
+
+  /* edge labels */
+  browser_waf [label="WAF_SESSION=X\n \n ",                   pos="1.75,3.0!", shape=none, fillcolor=none, fontcolor="black", fontsize="11"];
+  waf_engine [label="JSESSIONID=Y\nIVYSESSIONID=Z\nX-Forwarded-User=john\n\n", pos="5.20,3.0!", shape=none, fillcolor=none, fontcolor="black", fontsize="11"];
+}

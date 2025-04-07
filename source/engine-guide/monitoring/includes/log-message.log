@@ -1,0 +1,2 @@
+[2020-09-15 11:19:30.351][DEBUG][ch.ivyteam.ivy.performance.classgraph][http-nio-8080-exec-10]{application=system, client=127.0.0.1, executionContext=SYSTEM, pmv=system$engine-cockpit$1, request=, requestId=79, session=1}
+Annotation scanning for javax.faces.validator.FacesValidator in engine-cockpit-.iar.zip took 20ms

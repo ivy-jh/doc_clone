@@ -1,0 +1,20 @@
+[Begin Licence]
+#Licence for AxonIvy Axon.ivy Engine (Standard Edition)
+#Tue Jun 16 09:07:12 UTC 2020
+licence.keyversion=axonivy/9000
+licence.number=XLSSE-172B-C61E-923J
+licence.type=Standard Edition
+licence.valid.from=2020-06-16
+licence.valid.until=2021-07-15
+licencee.individual=
+licencee.organisation=AXON IVY AG
+product.name=Axon.ivy Engine
+product.type=Server
+public.urls=localhost
+server.elements.limit=0
+server.sessions.limit=2
+server.users.limit=4
+[End Licence]
+[Begin Signature]
+MCwCFFmjKpggN7X9TFv74rWYn+9W9OlnAhRMPaiaYq6d9IFaHA/vnC9Rfw9ddA==
+[End Signature]

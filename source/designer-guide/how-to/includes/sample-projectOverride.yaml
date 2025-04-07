@@ -1,0 +1,2 @@
+# app.yaml located in e.g., <configuration>/applications/myApp/app.yaml
+OverrideProject: com.webshop.acme:acme-web-shop
