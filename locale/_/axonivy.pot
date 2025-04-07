@@ -1,0 +1,1178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: PACKAGE VERSION\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2025-04-07 23:22+0200\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/axonivy/index.rst:2
+msgid   "Axon Ivy"
+msgstr  "Axon Ivy warmly welcomes Japan"
+
+#: ../../source/axonivy/migration/deprecation.rst:4
+msgid   "Deprecation and Removal"
+msgstr  ""
+
+#: ../../source/axonivy/migration/deprecation.rst:6
+msgid   "You should avoid using deprecated Public APIs and features. When "
+        "migrating to a new version, check for deprecated Public APIs and "
+        "features and replace them with the successor API or feature."
+msgstr  ""
+
+#: ../../source/axonivy/migration/deprecation.rst:10
+msgid   "This will help you later when you migrate to a version in which the "
+        "previously Public APIs or features are no longer available."
+msgstr  ""
+
+#: ../../source/axonivy/migration/deprecation.rst:14
+msgid   "Deprecated Features"
+msgstr  ""
+
+#: ../../source/axonivy/migration/deprecation.rst:16
+msgid   "Deprecated features are documented on our :dev-url:`Deprecation and "
+        "Removal page </features/deprecation>`"
+msgstr  ""
+
+#: ../../source/axonivy/migration/deprecation.rst:19
+msgid   "Deprecated Public API"
+msgstr  ""
+
+#: ../../source/axonivy/migration/deprecation.rst:21
+msgid   "Deprecated Public API are documented in our :public-api:`deprecated "
+        "Public API page</deprecated-list.html>`."
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/docker.rst:4
+#: ../../source/axonivy/migration/hotfix/index.rst:33
+#: ../../source/axonivy/migration/major/docker.rst:4
+msgid   "Docker"
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/docker.rst:6
+msgid   "It's good practice to keep your docker-engine save and sound, by "
+        "frequently switching to the latest available docker image. We "
+        "recommend to rely upon specific tags (e.g., ``12.0.1``) so that you "
+        "know that absolutely no magic can happen when you role the solution "
+        "out into production."
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/docker.rst:11
+msgid   "To update your engine to the latest version you are just required to "
+        "switch your image version declaration to the latest hotfix in your "
+        "release train (e.g., from ``axonivy/axonivy-engine:12.0.0`` to "
+        "``axonivy/axonivy-engine:12.0.2``). Then you can pull the new "
+        "images, run integration tests and roll the update out into "
+        "production."
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/docker.rst:17
+msgid   "The command to pull the latest images may differ to the approach you "
+        "are using to run docker. Here's a Docker-Compose example that pulls "
+        "the new Axon Ivy Engine hotfix version:"
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/index.rst:5
+msgid   "Hotfix Upgrade"
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/index.rst:7
+msgid   "It's important to keep your productive Axon Ivy Engine stable and up "
+        "to date. Otherwise, you risk to be vulnerable to known **security "
+        "leaks** and users may face inconveniences due to known and addressed "
+        "**bug fixes**. In addition, **performance issues** may be solved and "
+        "make using the Axon Ivy Engine more fun on a daily basis."
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/index.rst:13
+msgid   "This chapter focuses on hotfix migration in the same release train "
+        "(e.g., from ``12.0.0`` to ``12.0.2``). If you want to jump from a "
+        "major version to another (e.g., from ``10.0`` to ``12.0``) or minor "
+        "version to another (e.g., from ``11.1`` to ``11.2``) please consult "
+        "the :ref:`migration-upgrade-engine-major` chapter."
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/index.rst:19
+#: ../../source/axonivy/migration/major/index.rst:41
+msgid   "The way to migrate to the latest hotfix highly depends on the "
+        "hosting environment, so please jump right to the execution "
+        "environment you are using:"
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/index.rst:30
+msgid   "Migration comparison:"
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/index.rst:33
+#: ../../source/axonivy/migration/hotfix/windows.rst:4
+#: ../../source/axonivy/migration/major/windows.rst:4
+#: ../../source/axonivy/system-requirements/designer.rst
+#: ../../source/axonivy/system-requirements/engine.rst:62
+msgid   "Windows"
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/index.rst:33
+msgid   "Any Linux"
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/index.rst:35
+msgid   "Effort"
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/index.rst:35
+msgid   "Medium"
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/index.rst:35
+msgid   "Minimal"
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/linux.rst:4
+#: ../../source/axonivy/migration/major/linux.rst:4
+#: ../../source/axonivy/system-requirements/designer.rst
+#: ../../source/axonivy/system-requirements/engine.rst:62
+msgid   "Linux"
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/linux.rst:6
+msgid   "This section describes the hotfix procedure for all Linux "
+        "distributions."
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/linux.rst:8
+#: ../../source/axonivy/migration/hotfix/windows.rst:9
+#: ../../source/axonivy/migration/major/windows.rst:11
+msgid   "Download the latest Axon Ivy Engine hotfix version that matches your "
+        "release train :dev-url:`/download` and unpack at your prefered place."
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/linux.rst:10
+#: ../../source/axonivy/migration/hotfix/windows.rst:11
+#: ../../source/axonivy/migration/major/docker.rst:16
+#: ../../source/axonivy/migration/major/linux.rst:13
+#: ../../source/axonivy/migration/major/windows.rst:13
+msgid   "Stop the running Axon Ivy Engine instance."
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/linux.rst:11
+#: ../../source/axonivy/migration/hotfix/windows.rst:12
+msgid   "Start the :ref:`migration-wizard`. The Migration Wizard will copy "
+        "all relevant files from the old engine to the new engine during a "
+        "hotfix upgrade."
+msgstr  ""
+
+#: ../../source/axonivy/migration/hotfix/windows.rst:6
+msgid   "This section describes the hotfix procedure for engines running on "
+        "Windows without Docker."
+msgstr  ""
+
+#: ../../source/axonivy/migration/index.rst:4
+#: ../../source/axonivy/migration/major/_wizardMigration.rst:2
+msgid   "Migration"
+msgstr  ""
+
+#: ../../source/axonivy/migration/index.rst:6
+msgid   "The migration process from one Axon Ivy Engine version to another "
+        "differs highly among the supported operating systems and the kind of "
+        "migration."
+msgstr  ""
+
+#: ../../source/axonivy/migration/index.rst:9
+msgid   "**Hotfix Upgrade**"
+msgstr  ""
+
+#: ../../source/axonivy/migration/index.rst:11
+msgid   "If you are looking for the update steps to keep your Axon Ivy Engine "
+        "on the latest patch level (e.g., ``8.0.6`` > ``8.0.13``), please "
+        "consult the :ref:`migration-upgrade-engine-hotfix` chapter."
+msgstr  ""
+
+#: ../../source/axonivy/migration/index.rst:15
+msgid   "**Major / Minor Upgrade**"
+msgstr  ""
+
+#: ../../source/axonivy/migration/index.rst:17
+msgid   "When you aim for a migration to another major version (e.g., "
+        "``8.0.30`` > ``10.0.20``) or minor version (e.g., ``11.1`` > "
+        "``11.2``) please consult the :ref:`migration-upgrade-engine-major` "
+        "chapter."
+msgstr  ""
+
+#: ../../source/axonivy/migration/index.rst:21
+msgid   "**Migration Tools**"
+msgstr  ""
+
+#: ../../source/axonivy/migration/index.rst:23
+msgid   "To ease the migration we provide :ref:`migration-tools`."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/docker.rst:6
+msgid   "Docker's infrastructure enables you to do automate various kinds of "
+        "infrastructure setups. Consequently, the kind of major migration "
+        "steps are various too and highly dependent on your concrete setup. "
+        "However, here are the major steps to do when migrating a docker "
+        "based Axon Ivy Engine to another major version."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/docker.rst:13
+#: ../../source/axonivy/migration/major/linux.rst:10
+#: ../../source/axonivy/migration/major/windows.rst:10
+msgid   "Preparation"
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/docker.rst:14
+msgid   "Switch your setup to the axonivy-engine tag you are aiming for. "
+        "(e.g., from ``8.0.36`` to ``10.0.17``)"
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/_wizardMigration.rst:3
+msgid   "Do a backup of the system database and all of your data of your Axon "
+        "ivy Engine. If you run your Axon Ivy Engine in a Virtual Machine, "
+        "then you can take a snapshot."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/_wizardMigration.rst:6
+msgid   "Use the :ref:`migration-wizard` to migrate your Axon Ivy Engine. The "
+        "migration wizard is responsible to copy the configuration, error "
+        "pages, dropins and many more to the new place. It will also update "
+        "the schema of the system database. You can start using the wizard by "
+        "starting the new Axon Ivy Engine. Browse to the Axon Ivy Engine URI "
+        "(e.g., http://localhost:8080) and click on ``Setup Wizard`` > "
+        "``Migration Wizard``."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/_wizardMigration.rst:12
+msgid   "Restart your Axon Ivy Engine."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/_wizardMigration.rst:13
+msgid   "Apply the :ref:`migration-upgrade-engine-post`."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/index.rst:5
+msgid   "Major / Minor Upgrade"
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/index.rst:7
+msgid   "Upgrades to a new Axon Ivy Engine version are warmly recommended to "
+        "benefit from new features that will increase your productivity and "
+        "ability to react to new business needs. You can have a look at the "
+        "latest features here: :dev-url:`/news`"
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/index.rst:12
+msgid   "This chapter focuses on migrations from one major version to another "
+        "(e.g., from ``10.0`` to ``12.0``) or from one minor version to "
+        "another (e.g., from ``11.1`` to ``11.2``). If you are only "
+        "interested in applying hotfix upgrades (e.g., from ``12.0.0`` to "
+        "``12.0.2``), please consult the simpler :ref:`migration-upgrade-"
+        "engine-hotfix` chapter."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/index.rst:18
+msgid   "Switching from a Long-Term-Supported (LTS) release train (e.g., "
+        "`10.0``) to a LE (Leading Edge) release (e.g., ``11.2``) follows the "
+        "same logic as described in this chapter. Nevertheless, be aware that "
+        "we do not recommend casually switching from an LTS to a LE version "
+        "as the possibility to face breaking changes is more likely and the "
+        "effort to migrate between the LE versions is higher. See our release-"
+        "cycle (:dev-url:`/release-cycle`) for more information on our "
+        "release concept."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/index.rst:26
+msgid   "**Backwards-compatibility**"
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/index.rst:28
+msgid   "The Axon Ivy Engine can run and execute workflow applications that "
+        "have been built towards an older engine version. Even so, we do "
+        "recommend to **simulate migrations to new versions in a testing "
+        "environment** since there is a chance that your project relies upon "
+        "a no longer supported infrastructure, such as old Primefaces "
+        "versions, Java libraries, or internal Java classes from the Axon Ivy "
+        "Engine. By sticking only to PublicAPI and best practices, however, "
+        "you have a minimal risk to face these version incompatibilities."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/index.rst:36
+msgid   "To start with, we warmly recommend to read the :ref:`Migration Notes "
+        "<migration-notes>` for the versions you are migrating to. It "
+        "documents possible breaking changes that may affect you and require "
+        "manual adaptations in your project."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/linux.rst:6
+msgid   "On Linux systems the migration is very similar to a hotfix "
+        "migration. However, some additional steps are required at the end."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/linux.rst:11
+msgid   "Download the latest Axon Ivy Engine hotfix version that matches your "
+        "main release :dev-url:`/download`"
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/post-migration.rst:4
+msgid   "Post Migration Steps"
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/post-migration.rst:6
+msgid   "After the Axon Ivy Engine has been updated, the existing Axon Ivy "
+        "projects on the Axon Ivy Engine must also be converted. To do this, "
+        "go to the :ref:`application overview <engine-cockpit-application>` "
+        "in the Engine Cockpit. Axon Ivy projects that do not correspond to "
+        "the current project version are not started and must first be "
+        "converted using the :guilabel:`Convert` button."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/post-migration.rst:13
+msgid   "Once all the required Axon Ivy projects have been converted, the "
+        "processes can be tested. If errors are identified, check "
+        "the :ref:`migration notes <migration-notes>` to see if any manual "
+        "adjustments need to be made to the projects. If so, proceed as "
+        "follows:"
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/post-migration.rst:21
+msgid   "Project-Migration"
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/post-migration.rst:23
+msgid   "If you face incompatibilities in the UI or see errors in the logs "
+        "while using the new Axon Ivy Engine, here's how you make your "
+        "projects compatible with the new Axon Ivy Engine version."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/post-migration.rst:27
+msgid   "Download the latest Axon Ivy Designer which is available for the "
+        "release you are migrating to."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/post-migration.rst:29
+msgid   "Import the version that is deployed on your Axon Ivy Engine from "
+        "your source repository into your Axon Ivy Designer workspace."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/post-migration.rst:31
+msgid   "Migrate the project according to the description in "
+        "section :ref:`project-convert` of the Axon Ivy Designer Guide. "
+        "Usually, this is achieved by invoking the project conversion action "
+        "on each project. Some manual adaptations may be necessary."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/post-migration.rst:35
+msgid   "Test the migrated project in the Axon Ivy Designer."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/post-migration.rst:36
+msgid   "All migrated projects must be re-deployed to the new, upgraded Axon "
+        "Ivy Engine version."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/post-migration.rst:39
+msgid   "Not only the ``RELEASE`` process model version (PMVs) must be "
+        "updated and re-deployed, but all ``DEPRECATED`` projects too."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/post-migration.rst:41
+msgid   "Other versions in the states ``PREPARED`` or ``ARCHIVED`` may be "
+        "easier to delete, rather than updating and redeploying."
+msgstr  ""
+
+#: ../../source/axonivy/migration/major/windows.rst:6
+msgid   "On Windows the migration is very similar to a hotfix migration. "
+        "However, some additional steps are required at the end."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:4
+msgid   "Migration Notes"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:6
+msgid   "This chapter informs you in detail about incompatibilities that were "
+        "introduced between different Axon Ivy versions and tells you what "
+        "needs to be done to get your existing projects working with the "
+        "newest version. Go through the migration notes from version to "
+        "version."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:18
+msgid   "Previous Migration Notes"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:19
+msgid   ":ref:`migration-tools` still support migrating directly from this "
+        "version:"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:21
+msgid   ":dev-url:`Migrating from 10.0 to 12.0 </doc/12.0/migration-notes>`"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:23
+msgid   "Migrating from these versions is no longer supported by "
+        "the :ref:`migration-tools`:"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:25
+msgid   ":dev-url:`Migrating from 8.0 to 10.0 </doc/10.0/migration-notes>`"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:26
+msgid   ":dev-url:`Migrating from 7.0 to 8.0 </doc/8.0.0/migration-notes>`"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:27
+msgid   ":dev-url:`Migrating from 6.0 to 7.0 </doc/7.0.0/migration-notes>`"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:28
+msgid   ":dev-url:`Migrating from 5.1 to 6.0 </doc/6.0.0/migration-notes>`"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:29
+msgid   ":dev-url:`Migrating from 5.0 to 5.1 </doc/5.1.0/migration-notes>`"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:30
+msgid   ":dev-url:`Migrating from 4.3 to 5.0 </doc/5.0.5/migration-notes>`"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes.rst:32
+msgid   "Please migrate first to a newer version that still support your old "
+        "version and then migrate to the next version. E.g., for migrating "
+        "from 6.0 to 12.0, first install 8.0 and migrate your old Axon Ivy "
+        "Engine from 6.0 to 8.0 and then install 12.0 and migrate from 8.0 to "
+        "12.0."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:4
+msgid   "Migrating from 12.0 to 13.1"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:6
+msgid   "Upgrade to 13.1 is only supported from an Axon Ivy Engine 10.0 and "
+        "higher. If you have an Axon Ivy Engine older than version 10.0 you "
+        "need first to migrate to a newer version."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:10
+msgid   "License"
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:7
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:12
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:20
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:47
+msgid   "|tag-ops-changed|"
+msgstr  ""
+
+#: ../../../doc-build/<rst_epilog>:3
+msgid   "tag-ops-changed"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:14
+msgid   "You need to request a new license for Axon Ivy Engine 13.1."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:18
+msgid   "Removal of Server Control Center for Windows"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:22
+msgid   "The Server Control Center for Windows has been removed. Prefer using "
+        "Docker for Windows to run the Axon Ivy Engine. If you still want to "
+        "run the Axon Ivy Engine on Windows without Docker, you can "
+        "use :ref:`AxonIvyEngineService.exe <engine-service>` to register the "
+        "Axon Ivy Engine as a Windows Service."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:29
+msgid   "Support for Case Scope Override removed"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:31
+msgid   "Case scope overriding has been depreacted in LTS 8.0 and was now "
+        "removed. Use :ref:`strict_overriding` if you rely on case scope "
+        "overriding."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:36
+msgid   "Removal of Serenity PrimeFaces themes"
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:40
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:38
+msgid   "|tag-project-removed|"
+msgstr  ""
+
+#: ../../../doc-build/<rst_epilog>:9
+msgid   "tag-project-removed"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:40
+msgid   "We removed the Serenity themes including the :code:`serenity-ivy` "
+        "theme. Please use the :ref:`freya-ivy <freya-themes>` theme instead."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:45
+msgid   "Changed Runtime logger name"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:49
+msgid   "We changed the Runtime logger name from :code:`runtime.[app name]."
+        "[pm name].[category]` to :code:`runtime.[security context name]."
+        "[category].[app name].[pm name]`."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:57
+msgid   "**Detail**"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:61
+msgid   "We added the security context name to the Runtime logger name and "
+        "moved the category after the security context name. This is to make "
+        "the logger name more unique and to be able to filter by security "
+        "context name. The new logger name is: :code:`runtime.[security "
+        "context name].[category].[app name].[pm name]`."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:65
+msgid   "In case you have a custom :code:`log4j2.xml` configuration, you need "
+        "to adapt the  occurences of the runtime logger name in your "
+        "configuration."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:67
+msgid   "From something like this:"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-notes-120-131.rst:75
+msgid   "To something like this:"
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:1
+msgid   "**Tag Legend:**"
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:3
+msgid   "|tag-ops-wizard|"
+msgstr  ""
+
+#: ../../../doc-build/<rst_epilog>:2
+msgid   "tag-ops-wizard"
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:5
+msgid   "This migration is handled by the :ref:`migration-wizard`."
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:9
+msgid   "This migration will change something in the engine operation. If you "
+        "are responsible for the operation of an engine, check if this change "
+        "affects you."
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:13
+msgid   "|tag-ops-deprecated|"
+msgstr  ""
+
+#: ../../../doc-build/<rst_epilog>:4
+msgid   "tag-ops-deprecated"
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:15
+msgid   "This migration highlights behaviors or features that are deprecated. "
+        "That functionality will be removed soon. If you are responsible for "
+        "the operation of an engine, you should check if this change affects "
+        "you."
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:19
+msgid   "|tag-ops-removed|"
+msgstr  ""
+
+#: ../../../doc-build/<rst_epilog>:5
+msgid   "tag-ops-removed"
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:21
+msgid   "This migration will remove a behavior or feature that has been "
+        "available for the engine operation. If you are responsible for the "
+        "operation of an engine, check if this change affects you."
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:25
+msgid   "|tag-project-auto-convert|"
+msgstr  ""
+
+#: ../../../doc-build/<rst_epilog>:6
+msgid   "tag-project-auto-convert"
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:27
+msgid   "This migration is handled by the :ref:`Project Conversion <project-"
+        "convert>` automatically."
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:29
+msgid   "|tag-project-changed|"
+msgstr  ""
+
+#: ../../../doc-build/<rst_epilog>:7
+msgid   "tag-project-changed"
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:31
+msgid   "This migration will change a certain behavior in the projects. If "
+        "you are a project developer, check if this change affects you."
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:34
+msgid   "|tag-project-deprecated|"
+msgstr  ""
+
+#: ../../../doc-build/<rst_epilog>:8
+msgid   "tag-project-deprecated"
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:36
+msgid   "This migration will mark features or APIs as deprecated in projects. "
+        "That functionality will be removed soon. If you are a project "
+        "developer, check if this change affects you."
+msgstr  ""
+
+#: ../../source/axonivy/migration/_tagLegend.rst:42
+msgid   "This migration will remove a behavior or feature of a project. If "
+        "you are a project developer, check if this change affects you."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-tools.rst:4
+msgid   "Migration Tools"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-tools.rst:6
+msgid   "To ease the migration we provide two tools:"
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-tools.rst:8
+msgid   "The :ref:`migration-wizard` helps you migrate an Axon Ivy Engine to "
+        "the latest version."
+msgstr  ""
+
+#: ../../source/axonivy/migration/migration-tools.rst:9
+msgid   "The :ref:`project-convert-wizard` helps you migrate Axon Ivy "
+        "projects to the latest version."
+msgstr  ""
+
+#: ../../source/axonivy/release-notes/index.rst:4
+msgid   "Release Notes"
+msgstr  ""
+
+#: ../../source/axonivy/release-notes/index.rst:89
+msgid   "Changes before 9.4.0"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/browser.rst:4
+msgid   "Web Browser"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/browser.rst:6
+msgid   "All popular web browsers are supported:"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/browser.rst:8
+msgid   "Firefox"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/browser.rst:9
+msgid   "Chrome"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/browser.rst:10
+msgid   "Opera"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/browser.rst:11
+msgid   "Safari"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/browser.rst:12
+msgid   "Edge"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/browser.rst:14
+msgid   "For security reasons, we recommend using the latest available web "
+        "browser versions. Most other web browsers that support the latest "
+        "JavaScript, HTML 5 and CSS 3 specifications will work, too."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:4
+msgid   "Axon Ivy Designer"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:6
+msgid   "We recommend the following system setup for the Axon Ivy Designer:"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:9
+#: ../../source/axonivy/system-requirements/engine.rst:11
+msgid   "Hardware Requirements"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:11
+msgid   "Hardware requirements may vary depending on how many projects you "
+        "are working on in your workspace."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst
+msgid   "Memory (RAM)"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:13
+msgid   "Minimum is 3 GB, we recommend using at least 8 GB."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst
+msgid   "Disk Space"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:14
+msgid   "Minimum is 2 GB, we recommend at least 100 GB on a Solid State Disk "
+        "(SSD)."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst
+msgid   "Processor"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:15
+msgid   "Minimum is 2 cores with 2 GHz, we recommend 8 cores with 2.5 GHz."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:18
+#: ../../source/axonivy/system-requirements/engine.rst:43
+msgid   "Software Requirements"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:20
+msgid   "Axon Ivy Designer needs Java SE 21 to run."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:22
+msgid   "Note that Java SE 21 provided by `Eclipse Temurin <https://"
+        "adoptium.net/>`_ is already included in our Windows and in our macOS "
+        "installation. We do not include Java SE 21 on Linux. You may want to "
+        "use Java SE 21 provided by your operating system or install `Eclipse "
+        "Temurin <https://adoptium.net/>`_."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:27
+msgid   "We test Axon Ivy Designer with `Eclipse Temurin <https://"
+        "adoptium.net/>`_."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:30
+#: ../../source/axonivy/system-requirements/engine.rst:56
+msgid   "Operating Systems"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:32
+msgid   "Windows 10 / 11 x64 with `WebView2 <https://developer.microsoft.com/"
+        "en-us/microsoft-edge/webview2/>`_ installed"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:34
+msgid   "Linux x64 with GTK 4 and X.org window system (tested on Ubuntu 24.04)"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst
+msgid   "macOS"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:36
+msgid   "BETA! macOS Monterey x64 (tested on macOS Monterey 12.6.3)"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:39
+msgid   "**macOS**"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:41
+msgid   "The Designer has some known bugs when running under macOS. We are "
+        "currently not able to fix those bugs or provide support. Use at your "
+        "own risk."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:45
+msgid   "Web Browsers"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/designer.rst:47
+#: ../../source/axonivy/system-requirements/engine.rst:103
+msgid   "See :ref:`browser-system-requirements`."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:4
+msgid   "Axon Ivy Engine"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:6
+msgid   "The following system requirements highly depend on the number of "
+        "Named Users, Concurrent Users, and deployed applications."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:13
+msgid   "By default, the Axon Ivy Engine runs a bundled OpenSearch server. It "
+        "is possible to integrate with an :ref:`external <opensearch-"
+        "external>` OpenSearch instance. This also affects the minimum "
+        "hardware requirements."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:19
+msgid   "With bundled OpenSearch server (default)"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:20
+msgid   "**Memory (RAM)**: Minimum is 8 GB, we recommend to use 32 GB."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:23
+msgid   "**Disk Space**: Minimum is 20 GB, we recommend 100 GB on a Solid "
+        "State Disk (SSD)."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:26
+msgid   "**Processors**: Minimum is 4 cores with 2 GHz, we recommend 16 cores "
+        "with 2.5 GHz."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:31
+msgid   "With an external OpenSearch server"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:32
+msgid   "**Memory (RAM)**: Minimum is 4 GB. We recommend using at least 16 GB."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:35
+msgid   "**Disk Space**: Minimum is 2 GB. We recommend 50 GB on a Solid State "
+        "Disk (SSD)."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:38
+msgid   "**Processors**: Minimum is 4 cores with 2 GHz. We recommend 16 cores "
+        "with 2.5 GHz."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:45
+msgid   "The Axon Ivy Engine needs Java SE 21 to run and is tested with "
+        "`Eclipse Temurin <https://adoptium.net/>`_."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:48
+msgid   "Note: Java SE 21 `Eclipse Temurin <https://adoptium.net/>`_ is "
+        "already included in our Windows installation and the Docker "
+        "container. On Linux, we do not include Java SE 21. You may want to "
+        "use Java SE 21 provided by your operating system or install `Eclipse "
+        "Temurin <https://adoptium.net/>`_."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:58
+msgid   "The Enterprise Edition has some :ref:`advantages <cluster>` but also "
+        "some :ref:`restrictions <cluster-restrictions>` compared to the "
+        "Standard Edition."
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:62
+msgid   "Engine Type"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:62
+msgid   "Container (Linux)"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:64
+msgid   "Standard Edition"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:64
+#: ../../source/axonivy/system-requirements/engine.rst:66
+msgid   "Yes"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:66
+msgid   "Enterprise Edition"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:66
+msgid   "No"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:69
+msgid   "**Windows**: Windows Server 2022 and 2019"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:72
+msgid   "**Linux**: Linux x64 (tested on Ubuntu 24.04)"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:76
+msgid   "System Database"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:79
+msgid   "Database System"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:79
+msgid   "Supported"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:79
+msgid   "Tested"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:81
+msgid   "PostgreSQL"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:81
+msgid   "14 - 17"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:81
+msgid   "14, 17"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:83
+msgid   "MySQL (InnoDB)"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:83
+msgid   "8.4 - 9"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:83
+msgid   "8.4, 9"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:85
+msgid   "MariaDB (InnoDB)"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:85
+msgid   "10.11 - 11"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:85
+msgid   "10.11, 11"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:87
+msgid   "Microsoft SQL Server"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:87
+msgid   "2019, 2022"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:89
+msgid   "Oracle Database"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:89
+msgid   "19, 23"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:94
+msgid   "OpenSearch"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:96
+msgid   "Version 2.19. Only required if you run your :ref:`own <opensearch-"
+        "external>` OpenSearch instance!"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/engine.rst:101
+msgid   "Browsers"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/index.rst:2
+msgid   "System Requirements"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/neo.rst:4
+msgid   "Axon Ivy NEO Designer"
+msgstr  ""
+
+#: ../../source/axonivy/system-requirements/neo.rst:6
+msgid   "NEO Designer users are working with a :ref:`web browser <browser-"
+        "system-requirements>` that communicates with a :ref:`Axon Ivy Engine "
+        "<engine-system-requirements>`."
+msgstr  ""
+
+#: ../../source/axonivy/try-axon-ivy.rst:2
+msgid   "Try Axon Ivy!"
+msgstr  ""
+
+#: ../../source/axonivy/try-axon-ivy.rst:4
+msgid   "The Axon Ivy Designer is free of charge. You can start developing "
+        "your projects right away."
+msgstr  ""
+
+#: ../../source/axonivy/try-axon-ivy.rst:8
+msgid   "We offer you two ways to try the Axon Ivy Engine:"
+msgstr  ""
+
+#: ../../source/axonivy/try-axon-ivy.rst:10
+msgid   "**Demo Mode** The Axon Ivy Engine runs out of the box with a demo "
+        "license and an in-memory database. As long as you don't restart the "
+        "engine, you can do everything you can do with a licensed, production-"
+        "ready engine."
+msgstr  ""
+
+#: ../../source/axonivy/try-axon-ivy.rst:15
+msgid   "To try the Axon Ivy Engine this way, follow the Engine Guide "
+        "Chapter :ref:`Getting Started <getting-started>` but skip the "
+        "license installation."
+msgstr  ""
+
+#: ../../source/axonivy/try-axon-ivy.rst:18
+msgid   "**Cloud Trial** If you want to try an Axon Ivy Engine with a "
+        "persisting database, you can get a trial engine in the cloud via "
+        "https://www.axonivy.com/try-it-now. It comes complete with a two-"
+        "week fully functional license and full web access to the engine."
+msgstr  ""
+
+#: ../../source/axonivy/try-axon-ivy.rst:23
+msgid   "With this option, you don't need to install an engine - use a local "
+        "Axon Ivy Designer to develop your trial project and deploy it to the "
+        "Axon Ivy Engine in the cloud."
+msgstr  ""
+
+#: ../../source/axonivy/what-axon-ivy.rst:4
+msgid   "What is Axon Ivy?"
+msgstr  ""
+
+#: ../../source/axonivy/what-axon-ivy.rst:6
+msgid   "Axon Ivy is a Process Automation Platform that simplifies and "
+        "automates the interaction of humans with their digital systems. The "
+        "platform is typically responsible for the most precious business "
+        "cases where companies produce value. Here is how we do it:"
+msgstr  ""
+
+#: ../../source/axonivy/what-axon-ivy.rst:11
+msgid   "**Visualize**"
+msgstr  ""
+
+#: ../../source/axonivy/what-axon-ivy.rst:12
+msgid   "Our platform allows you to **document business processes fast and "
+        "intuitive**. A shared view of users, roles, departments and "
+        "technical systems involved in a business process improves your work. "
+        "HR recruitment profiles become clearer, bottlenecks become obvious, "
+        "ideas for effective improvements arise from anyone involved in the "
+        "process."
+msgstr  ""
+
+#: ../../source/axonivy/what-axon-ivy.rst:18
+msgid   "**Automate**"
+msgstr  ""
+
+#: ../../source/axonivy/what-axon-ivy.rst:19
+msgid   "Documented processes are good. But what you really want is to "
+        "**drive your highly valuable processes automatically**. Employees "
+        "are often interrupted by searching and filtering data from various "
+        "tools and feeding this data into other technical systems. Even "
+        "though value is produced in a well-known business case, there is a "
+        "lack of a straightforward interface that guides the involved users "
+        "through the process. Valuable data is often segregated and stored in "
+        "various dedicated technical systems. With Axon Ivy, you can drive "
+        "your process automatically. Our platform can easily orchestrate "
+        "people, data and technical systems. You can generate an initial "
+        "application that leads users through the process without hiring a "
+        "software engineer. People can contribute to the process by using "
+        "their favorite devices such as smartphones or workstations."
+msgstr  ""
+
+#: ../../source/axonivy/what-axon-ivy.rst:32
+msgid   "**Improve**"
+msgstr  ""
+
+#: ../../source/axonivy/what-axon-ivy.rst:33
+msgid   "The digitalization of your company can **evolve over time**. We "
+        "favor small predictable improvements over big-bang solutions. The "
+        "Axon Ivy Platform allows you to start quickly and simply with your "
+        "existing environment. You may start with just task notifications "
+        "sent to users that should contribute to a running process. And "
+        "eventually, the platform becomes your single interface for all your "
+        "business interactions. You will be able to measure KPIs based on the "
+        "data that is produced during the execution of your business "
+        "processes. Based on these insights, you can advance your business "
+        "constantly and effectively. The cost of business transformations "
+        "become reasonable and predictable."
+msgstr  ""
+
+#: ../../source/axonivy/what-axon-ivy.rst:44
+msgid   "The Axon Ivy Platform consists of the :ref:`Axon Ivy Designer "
+        "<designer-guide>` which enables the drawing, simulation and "
+        "implementation of automated business processes, and the application "
+        "server :ref:`Axon Ivy Engine <engine-guide>` that executes your "
+        "business cases and provides a shared interface for process users."
+msgstr  ""
+
+#: ../../source/axonivy/why-axon-ivy.rst:4
+msgid   "Why Axon Ivy?"
+msgstr  ""
+
+#: ../../source/axonivy/why-axon-ivy.rst:6
+msgid   "Axon Ivy is exciting for everyone who participates in your digital "
+        "transformation journey."
+msgstr  ""
+
+#: ../../source/axonivy/why-axon-ivy.rst:9
+msgid   "**Business**: We enable you to start your digital transformation "
+        "journey and make new business opportunities possible. You are still "
+        "the captain of your ship. Start with simple automations and "
+        "transform essential parts of your business when you gain trust and "
+        "confidence."
+msgstr  ""
+
+#: ../../source/axonivy/why-axon-ivy.rst:15
+msgid   "**Business Analysts**: It has never been easier to document "
+        "processes fast and intuitively. The process simulation allows you to "
+        "verify that you have a shared view how processes should be executed. "
+        "Set up a simple structure for the data of a process and you even get "
+        "a simple executable application with generated front ends that are "
+        "meaningful. No software engineer is required to create an already "
+        "powerful application from scratch."
+msgstr  ""
+
+#: ../../source/axonivy/why-axon-ivy.rst:23
+msgid   "**Developers**: Develop your application on a rich stack of well-"
+        "tested Java frameworks. We minimize your technology evaluation "
+        "effort by giving you a set of libraries and an IDE that match "
+        "perfectly together. This allows you to quickly jump into projects "
+        "and deliver value. While you always have the ability to break out of "
+        "our predefined tooling and use advanced features of Tomcat, JPA, "
+        "JSF, JAX-RS or whatever you require."
+msgstr  ""
+
+#: ../../source/axonivy/why-axon-ivy.rst:30
+msgid   "**Operations**: We deliver packages for popular platforms (Linux, "
+        "Windows). No big change, we orchestrate your existing systems. We "
+        "support many database systems (Oracle, Microsoft SQL Server, "
+        "MariaDB, MySQL, PostgreSQL) Effective monitoring and logging "
+        "interfaces are provided to give you a safety that the application is "
+        "healthy and accessible."
+msgstr  ""
