@@ -4,20 +4,21 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Axon Ivy Platform 13.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 14:40+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
-"Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"PO-Revision-Date: 2025-04-08 11:07+0000\n"
+"Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/doc_clone/"
+"userguide/ja/>\n"
+"Language: jp\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../source/axonivy/index.rst:2
@@ -26,7 +27,7 @@ msgstr "Axon Ivy warmly welcomes Japan"
 
 #: ../../source/axonivy/migration/deprecation.rst:4
 msgid "Deprecation and Removal"
-msgstr ""
+msgstr "廃止と削除"
 
 #: ../../source/axonivy/migration/deprecation.rst:6
 msgid ""
@@ -34,12 +35,16 @@ msgid ""
 "migrating to a new version, check for deprecated Public APIs and features"
 " and replace them with the successor API or feature."
 msgstr ""
+"非推奨のパブリック API や機能を使用しないでください。 "
+"新しいバージョンに移行するときは、非推奨のパブリック API と機能を確認し、"
+"後継 API または機能に置き換えてください."
 
 #: ../../source/axonivy/migration/deprecation.rst:10
 msgid ""
 "This will help you later when you migrate to a version in which the "
 "previously Public APIs or features are no longer available."
-msgstr ""
+msgstr "以前のパブリック API "
+"や機能が利用できなくなったバージョンに移行すると、後で役立ちます."
 
 #: ../../source/axonivy/migration/deprecation.rst:14
 msgid "Deprecated Features"
@@ -50,22 +55,26 @@ msgid ""
 "Deprecated features are documented on our :dev-url:`Deprecation and "
 "Removal page </features/deprecation>`"
 msgstr ""
+"弊社:dev-url:`Deprecation and Removal page </features/deprecation> "
+"で非推奨の機能が文書化されます"
 
 #: ../../source/axonivy/migration/deprecation.rst:19
 msgid "Deprecated Public API"
-msgstr ""
+msgstr "非推奨公開 API"
 
 #: ../../source/axonivy/migration/deprecation.rst:21
 msgid ""
 "Deprecated Public API are documented in our :public-api:`deprecated "
 "Public API page</deprecated-list.html>`."
 msgstr ""
+"非推奨公開 API は、 :public-api:`deprecated Public API ページ</deprecated-"
+"list.html>` でドキュメント化されます."
 
 #: ../../source/axonivy/migration/hotfix/docker.rst:4
 #: ../../source/axonivy/migration/hotfix/index.rst:33
 #: ../../source/axonivy/migration/major/docker.rst:4
 msgid "Docker"
-msgstr ""
+msgstr "ドッカー"
 
 #: ../../source/axonivy/migration/hotfix/docker.rst:6
 msgid ""
@@ -84,6 +93,11 @@ msgid ""
 "/axonivy-engine:12.0.2``). Then you can pull the new images, run "
 "integration tests and roll the update out into production."
 msgstr ""
+"お使いのエンジンを最新のバージョンに更新するには、イメージバージョンの宣言を"
+"、リリース列車の最新のホットフィックスに切り替えるだけです(例えば、`axonivy/"
+"axonivy-engine:12.0.0` から ``axonivy/axonivy-engine:12.0.2``)。 "
+"それから、新しいイメージを引っ張り、統合のテストを実行し、更新を生産に転がす"
+"ことができます."
 
 #: ../../source/axonivy/migration/hotfix/docker.rst:17
 msgid ""
@@ -91,10 +105,13 @@ msgid ""
 "using to run docker. Here's a Docker-Compose example that pulls the new "
 "Axon Ivy Engine hotfix version:"
 msgstr ""
+"最新の画像をプルするコマンドは、ドッカーを実行するために使用しているアプロー"
+"チと異なる場合があります。 新しいAxon Ivy "
+"EngineホットフィックスバージョンをプルするDocker-Composeの例は次のとおりです"
 
 #: ../../source/axonivy/migration/hotfix/index.rst:5
 msgid "Hotfix Upgrade"
-msgstr ""
+msgstr "Hotfixアップグレード"
 
 #: ../../source/axonivy/migration/hotfix/index.rst:7
 msgid ""
@@ -104,6 +121,12 @@ msgid ""
 "fixes**. In addition, **performance issues** may be solved and make using"
 " the Axon Ivy Engine more fun on a daily basis."
 msgstr ""
+"あなたの生産的な軸線のアイビー "
+"エンジンを安定した保つことは重要であり、日付まで。 "
+"それ以外の場合は、既知の**セキュリティ漏洩に脆弱であることが危険**と、既知の"
+"アドレスが付いた**バグ修正により、ユーザーは不便に直面している可能性がありま"
+"す**。 また、**パフォーマンスの問題**は、Axon Ivy "
+"Engineを日常的により楽しく解決し、活用することができます."
 
 #: ../../source/axonivy/migration/hotfix/index.rst:13
 msgid ""
@@ -120,11 +143,12 @@ msgid ""
 "The way to migrate to the latest hotfix highly depends on the hosting "
 "environment, so please jump right to the execution environment you are "
 "using:"
-msgstr ""
+msgstr "最新のホットフィックスに移行する方法は、ホスティング環境によって異なりますの"
+"で、使用している実行環境に直接ジャンプしてください"
 
 #: ../../source/axonivy/migration/hotfix/index.rst:30
 msgid "Migration comparison:"
-msgstr ""
+msgstr "移行比較:"
 
 #: ../../source/axonivy/migration/hotfix/index.rst:33
 #: ../../source/axonivy/migration/hotfix/windows.rst:4
@@ -132,15 +156,15 @@ msgstr ""
 #: ../../source/axonivy/system-requirements/designer.rst
 #: ../../source/axonivy/system-requirements/engine.rst:62
 msgid "Windows"
-msgstr ""
+msgstr "ウィンドウズ"
 
 #: ../../source/axonivy/migration/hotfix/index.rst:33
 msgid "Any Linux"
-msgstr ""
+msgstr "任意のLinux"
 
 #: ../../source/axonivy/migration/hotfix/index.rst:35
 msgid "Effort"
-msgstr ""
+msgstr "スタッフ"
 
 #: ../../source/axonivy/migration/hotfix/index.rst:35
 msgid "Medium"
@@ -148,18 +172,19 @@ msgstr ""
 
 #: ../../source/axonivy/migration/hotfix/index.rst:35
 msgid "Minimal"
-msgstr ""
+msgstr "ミニマル"
 
 #: ../../source/axonivy/migration/hotfix/linux.rst:4
 #: ../../source/axonivy/migration/major/linux.rst:4
 #: ../../source/axonivy/system-requirements/designer.rst
 #: ../../source/axonivy/system-requirements/engine.rst:62
 msgid "Linux"
-msgstr ""
+msgstr "ダウンロード"
 
 #: ../../source/axonivy/migration/hotfix/linux.rst:6
 msgid "This section describes the hotfix procedure for all Linux distributions."
-msgstr ""
+msgstr "このセクションでは、すべてのLinuxディストリビューションのホットフィックス手順"
+"について説明します."
 
 #: ../../source/axonivy/migration/hotfix/linux.rst:8
 #: ../../source/axonivy/migration/hotfix/windows.rst:9
@@ -168,6 +193,8 @@ msgid ""
 "Download the latest Axon Ivy Engine hotfix version that matches your "
 "release train :dev-url:`/download` and unpack at your prefered place."
 msgstr ""
+"リリース列車:dev-url:`/download` にマッチする最新の Axon Ivy Engine "
+"ホットフィックスバージョンをダウンロードして、好みの場所でアンパックします."
 
 #: ../../source/axonivy/migration/hotfix/linux.rst:10
 #: ../../source/axonivy/migration/hotfix/windows.rst:11
@@ -175,7 +202,7 @@ msgstr ""
 #: ../../source/axonivy/migration/major/linux.rst:13
 #: ../../source/axonivy/migration/major/windows.rst:13
 msgid "Stop the running Axon Ivy Engine instance."
-msgstr ""
+msgstr "実行中のAxon Ivyエンジンインスタンスを停止します."
 
 #: ../../source/axonivy/migration/hotfix/linux.rst:11
 #: ../../source/axonivy/migration/hotfix/windows.rst:12
@@ -184,27 +211,34 @@ msgid ""
 "relevant files from the old engine to the new engine during a hotfix "
 "upgrade."
 msgstr ""
+":ref:`migration-wizard` を起動します。 Migration Wizard "
+"は、古いエンジンからホットフィックスのアップグレード時に新しいエンジンにすべ"
+"ての関連ファイルをコピーします."
 
 #: ../../source/axonivy/migration/hotfix/windows.rst:6
 msgid ""
 "This section describes the hotfix procedure for engines running on "
 "Windows without Docker."
-msgstr ""
+msgstr "このセクションでは、ドッカーなしでWindows上で動作するエンジンのホットフィック"
+"ス手順について説明します."
 
 #: ../../source/axonivy/migration/index.rst:4
 #: ../../source/axonivy/migration/major/_wizardMigration.rst:2
 msgid "Migration"
-msgstr ""
+msgstr "マイグレーション"
 
 #: ../../source/axonivy/migration/index.rst:6
 msgid ""
 "The migration process from one Axon Ivy Engine version to another differs"
 " highly among the supported operating systems and the kind of migration."
 msgstr ""
+"Axon Ivy "
+"Engineバージョンから別のバージョンへの移行プロセスは、サポートされているオペ"
+"レーティングシステムと移行の種類の間で非常に異なります."
 
 #: ../../source/axonivy/migration/index.rst:9
 msgid "**Hotfix Upgrade**"
-msgstr ""
+msgstr "**ホットフィックスアップグレード**"
 
 #: ../../source/axonivy/migration/index.rst:11
 msgid ""
@@ -212,6 +246,9 @@ msgid ""
 "the latest patch level (e.g., ``8.0.6`` > ``8.0.13``), please consult the"
 " :ref:`migration-upgrade-engine-hotfix` chapter."
 msgstr ""
+"最新のパッチレベル(例えば、`8.0.6``>`8.0.13`)でAxon Ivy "
+"Engineを維持するための更新手順を探している場合は、 :ref:`migration-upgrade-"
+"engine-hotfix` の章を参照してください."
 
 #: ../../source/axonivy/migration/index.rst:15
 msgid "**Major / Minor Upgrade**"
@@ -226,11 +263,11 @@ msgstr ""
 
 #: ../../source/axonivy/migration/index.rst:21
 msgid "**Migration Tools**"
-msgstr ""
+msgstr "**マイグレーションツール* * 必須"
 
 #: ../../source/axonivy/migration/index.rst:23
 msgid "To ease the migration we provide :ref:`migration-tools`."
-msgstr ""
+msgstr ":ref:`migration-tools` を提供するマイグレーションを緩和するため."
 
 #: ../../source/axonivy/migration/major/docker.rst:6
 msgid ""
@@ -240,18 +277,27 @@ msgid ""
 "here are the major steps to do when migrating a docker based Axon Ivy "
 "Engine to another major version."
 msgstr ""
+"Dockerのインフラは、さまざまな種類のインフラ設定を自動化できます。 "
+"したがって、主要な移行手順の種類は、コンクリートのセットアップに多様で非常に"
+"依存しています。 しかし、ドッカーベースのAxon "
+"Ivyエンジンを別のメジャーバージョンに移行する際には、ここで行うための大きなス"
+"テップです."
 
 #: ../../source/axonivy/migration/major/docker.rst:13
 #: ../../source/axonivy/migration/major/linux.rst:10
 #: ../../source/axonivy/migration/major/windows.rst:10
 msgid "Preparation"
-msgstr ""
+msgstr "導入事例"
 
 #: ../../source/axonivy/migration/major/docker.rst:14
 msgid ""
 "Switch your setup to the axonivy-engine tag you are aiming for. (e.g., "
 "from ``8.0.36`` to ``10.0.17``)"
 msgstr ""
+"セットアップを目的の axonivy-engine タグに切り替えます。 "
+"(例:`8.0.36``````````````````````````````````````````````````````````````````"
+"```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````"
+""
 
 #: ../../source/axonivy/migration/major/_wizardMigration.rst:3
 msgid ""
@@ -259,6 +305,9 @@ msgid ""
 "Engine. If you run your Axon Ivy Engine in a Virtual Machine, then you "
 "can take a snapshot."
 msgstr ""
+"Axon ivy Engineのシステムデータベースとすべてのデータをバックアップします。 "
+"仮想マシンでAxon "
+"Ivyエンジンを実行すると、スナップショットを撮ることができます."
 
 #: ../../source/axonivy/migration/major/_wizardMigration.rst:6
 msgid ""
@@ -270,14 +319,20 @@ msgid ""
 "http://localhost:8080) and click on ``Setup Wizard`` > ``Migration "
 "Wizard``."
 msgstr ""
+":ref:`migration-wizard` を使用して、Axon Ivy Engine を移行します。 "
+"移行ウィザードは、設定、エラーページ、ドロップインなどを新しい場所にコピーす"
+"る責任があります。 システムデータベースのスキーマを更新します。 "
+"新型アクソンアイビーエンジンを始動させることでウィザードを使い始めることがで"
+"きます。 Axon Ivy Engine URI (例: http://localhost:8080) を参照し、`Setup "
+"Wizard```>`Migration Wizard`` をクリックします."
 
 #: ../../source/axonivy/migration/major/_wizardMigration.rst:12
 msgid "Restart your Axon Ivy Engine."
-msgstr ""
+msgstr "アクソンアイビーエンジンを再起動します."
 
 #: ../../source/axonivy/migration/major/_wizardMigration.rst:13
 msgid "Apply the :ref:`migration-upgrade-engine-post`."
-msgstr ""
+msgstr ":ref:`migration-upgrade-engine-post` を適用します."
 
 #: ../../source/axonivy/migration/major/index.rst:5
 msgid "Major / Minor Upgrade"
@@ -290,6 +345,10 @@ msgid ""
 "ability to react to new business needs. You can have a look at the latest"
 " features here: :dev-url:`/news`"
 msgstr ""
+"新しいAxon Ivy "
+"Engineバージョンへのアップグレードは、生産性と新しいビジネスニーズに反応する"
+"能力を高める新しい機能の恩恵を温かくお勧めしています。 :dev-url:`/news "
+"の最新の機能を見てみましょう。 ログイン"
 
 #: ../../source/axonivy/migration/major/index.rst:12
 msgid ""
@@ -299,6 +358,13 @@ msgid ""
 " hotfix upgrades (e.g., from ``12.0.0`` to ``12.0.2``), please consult "
 "the simpler :ref:`migration-upgrade-engine-hotfix` chapter."
 msgstr ""
+"この章では、メジャーバージョンから別のバージョンへ移行することに焦点を当てて"
+"います(例えば、`10.0````````````12.0`) "
+"1つのマイナーバージョンから別のバージョンへ(例えば、``11.1````````````11.2```"
+")。 "
+"ホットフィックスのアップグレード(例えば、`12.0.0````````````12.0.2```)を適用"
+"するだけに興味がある場合は、より単純な :ref:`migration-upgrade-engine-hotfix`"
+" の章を参照してください."
 
 #: ../../source/axonivy/migration/major/index.rst:18
 msgid ""
@@ -310,10 +376,16 @@ msgid ""
 "migrate between the LE versions is higher. See our release-cycle (:dev-"
 "url:`/release-cycle`) for more information on our release concept."
 msgstr ""
+"長期サポート(LTS)リリース列車(例:`10.0``)からLE(リードエッジ)リリース(例:`11."
+"2`)への切り替えは、この章で説明すると同じロジックに従います。 "
+"それにもかかわらず、LTSからLEバージョンへ切り替えるのをやさしくお勧めしないの"
+"で、変更の修正に直面する可能性が高まり、LEバージョン間で移行する努力が高くな"
+"ります。 リリースコンセプトの詳細については、リリースサイクル(:dev-url"
+":`/release-cycle`)を参照してください."
 
 #: ../../source/axonivy/migration/major/index.rst:26
 msgid "**Backwards-compatibility**"
-msgstr ""
+msgstr "**後方互換性**"
 
 #: ../../source/axonivy/migration/major/index.rst:28
 msgid ""
@@ -326,6 +398,15 @@ msgid ""
 "PublicAPI and best practices, however, you have a minimal risk to face "
 "these version incompatibilities."
 msgstr ""
+"Axon Ivy "
+"Engineは、古いエンジンバージョンに向かって構築されたワークフローアプリケーシ"
+"ョンを実行および実行できます。 "
+"また、以前のPrimefacesバージョン、Javaライブラリ、またはAxon Ivy "
+"Engineの内部Javaクラスなど、プロジェクトがサポートされていないインフラストラ"
+"クチャに依存する可能性があるため、テスト環境で新しいバージョンへの移行を制限"
+"することをお勧めします。 "
+"PublicAPIとベストプラクティスにのみ固執することで、これらのバージョンの互換性"
+"に直面するリスクは最小限に抑えられます."
 
 #: ../../source/axonivy/migration/major/index.rst:36
 msgid ""
@@ -334,18 +415,26 @@ msgid ""
 "possible breaking changes that may affect you and require manual "
 "adaptations in your project."
 msgstr ""
+"まず、移行するバージョンの :ref:`Migration Note <migration-notes>` "
+"を読んでください。 "
+"あなたに影響を与える可能性のある変更を破壊し、プロジェクト内の手動適応を必要"
+"とする可能性がある文書."
 
 #: ../../source/axonivy/migration/major/linux.rst:6
 msgid ""
 "On Linux systems the migration is very similar to a hotfix migration. "
 "However, some additional steps are required at the end."
-msgstr ""
+msgstr "Linux "
+"システムでは、マイグレーションはホットフィックスのマイグレーションと非常に似"
+"ています。 しかし、最後には追加の手順が必要です."
 
 #: ../../source/axonivy/migration/major/linux.rst:11
 msgid ""
 "Download the latest Axon Ivy Engine hotfix version that matches your main"
 " release :dev-url:`/download`"
 msgstr ""
+"お使いのメインリリースに一致する最新のAxon Ivy "
+"Engineホットフィックスバージョンをダウンロード :dev-url:`/download ログイン"
 
 #: ../../source/axonivy/migration/major/post-migration.rst:4
 msgid "Post Migration Steps"
@@ -360,6 +449,11 @@ msgid ""
 "project version are not started and must first be converted using the "
 ":guilabel:`Convert` button."
 msgstr ""
+"Axon Ivy Engineが更新された後、Axon Ivyエンジンの既存のAxon "
+"Ivyプロジェクトも変換する必要があります。 これを行うには、:ref:`application "
+"overview <engine-cockpit-application>` をエンジンコックピットで実行します。 "
+"現在のプロジェクトバージョンに対応していないAxon Ivyプロジェクトは起動せず、 "
+":guilabel:`Convert`ボタンを使用して最初に変換する必要があります."
 
 #: ../../source/axonivy/migration/major/post-migration.rst:13
 msgid ""
@@ -368,10 +462,14 @@ msgid ""
 ":ref:`migration notes <migration-notes>` to see if any manual adjustments"
 " need to be made to the projects. If so, proceed as follows:"
 msgstr ""
+"必要なAxon Ivyプロジェクトが変換されたら、プロセスをテストできます。 "
+"エラーが特定されている場合は、:ref:`migration Note <migration-notes>` "
+"をチェックして、マニュアルの調整がプロジェクトに行われる必要があるかどうかを"
+"確認します。 もしそうなら、次のようになります"
 
 #: ../../source/axonivy/migration/major/post-migration.rst:21
 msgid "Project-Migration"
-msgstr ""
+msgstr "プロジェクト・マイグレーション"
 
 #: ../../source/axonivy/migration/major/post-migration.rst:23
 msgid ""
@@ -379,18 +477,24 @@ msgid ""
 "using the new Axon Ivy Engine, here's how you make your projects "
 "compatible with the new Axon Ivy Engine version."
 msgstr ""
+"UI の互換性に直面しているか、新しい Axon Ivy Engine "
+"を使用する間ログのエラーが表示された場合は、新しい Axon Ivy Engine "
+"バージョンと互換性のあるプロジェクトを作る方法は次のとおりです."
 
 #: ../../source/axonivy/migration/major/post-migration.rst:27
 msgid ""
 "Download the latest Axon Ivy Designer which is available for the release "
 "you are migrating to."
-msgstr ""
+msgstr "あなたが移行しているリリースのために利用可能な最新のAxon Ivy "
+"Designerをダウンロードしてください."
 
 #: ../../source/axonivy/migration/major/post-migration.rst:29
 msgid ""
 "Import the version that is deployed on your Axon Ivy Engine from your "
 "source repository into your Axon Ivy Designer workspace."
 msgstr ""
+"ソースリポジトリからAxon Ivy EngineにデプロイされているバージョンをAxon Ivy "
+"Designerのワークスペースにインポートします."
 
 #: ../../source/axonivy/migration/major/post-migration.rst:31
 msgid ""
@@ -399,38 +503,48 @@ msgid ""
 "achieved by invoking the project conversion action on each project. Some "
 "manual adaptations may be necessary."
 msgstr ""
+"Axon Ivy Designer ガイドのセクション:ref:`project-convert` "
+"の説明に従ってプロジェクトを移行します。 "
+"通常、プロジェクトごとにプロジェクトコンバージョンアクションを呼び込むことで"
+"実現します。 マニュアルの適応が必要な場合があります."
 
 #: ../../source/axonivy/migration/major/post-migration.rst:35
 msgid "Test the migrated project in the Axon Ivy Designer."
-msgstr ""
+msgstr "Axon Ivy Designerでマイグレーションされたプロジェクトをテストします."
 
 #: ../../source/axonivy/migration/major/post-migration.rst:36
 msgid ""
 "All migrated projects must be re-deployed to the new, upgraded Axon Ivy "
 "Engine version."
-msgstr ""
+msgstr "すべての移行されたプロジェクトは、Axon Ivy "
+"Engineバージョンをアップグレードし、新しいものに再採用する必要があります."
 
 #: ../../source/axonivy/migration/major/post-migration.rst:39
 msgid ""
 "Not only the ``RELEASE`` process model version (PMVs) must be updated and"
 " re-deployed, but all ``DEPRECATED`` projects too."
 msgstr ""
+"``RELEASE` プロセスモデルバージョン (PMVs) "
+"は更新され、再開発する必要がありますが、すべての ``DEPRECATED````` "
+"プロジェクトも."
 
 #: ../../source/axonivy/migration/major/post-migration.rst:41
 msgid ""
 "Other versions in the states ``PREPARED`` or ``ARCHIVED`` may be easier "
 "to delete, rather than updating and redeploying."
-msgstr ""
+msgstr "「PREPARED」や「ARCHIVED」の他のバージョンは、更新や再デプロイではなく、削除"
+"しやすくなります."
 
 #: ../../source/axonivy/migration/major/windows.rst:6
 msgid ""
 "On Windows the migration is very similar to a hotfix migration. However, "
 "some additional steps are required at the end."
-msgstr ""
+msgstr "Windowsでは、マイグレーションはホットフィックスのマイグレーションに非常に似て"
+"います。 しかし、最後には追加の手順が必要です."
 
 #: ../../source/axonivy/migration/migration-notes.rst:4
 msgid "Migration Notes"
-msgstr ""
+msgstr "移行ノート"
 
 #: ../../source/axonivy/migration/migration-notes.rst:6
 msgid ""
@@ -439,48 +553,53 @@ msgid ""
 "to be done to get your existing projects working with the newest version."
 " Go through the migration notes from version to version."
 msgstr ""
+"この章では、さまざまなAxon "
+"Ivyバージョン間で導入されたincompatibilitiesについて詳しく紹介し、既存のプロ"
+"ジェクトを最新のバージョンで動作させるために必要なことをお伝えします。 "
+"バージョンからバージョンへ移行ノートを移動します."
 
 #: ../../source/axonivy/migration/migration-notes.rst:18
 msgid "Previous Migration Notes"
-msgstr ""
+msgstr "前の移行ノート"
 
 #: ../../source/axonivy/migration/migration-notes.rst:19
 msgid ":ref:`migration-tools` still support migrating directly from this version:"
-msgstr ""
+msgstr ":ref:`migration-tools` はまだこのバージョンから直接移行するサポート:"
 
 #: ../../source/axonivy/migration/migration-notes.rst:21
 msgid ":dev-url:`Migrating from 10.0 to 12.0 </doc/12.0/migration-notes>`"
-msgstr ""
+msgstr ":dev-url:`10.0 から 12.0 </doc/12.0/migration-notes>` へ移行"
 
 #: ../../source/axonivy/migration/migration-notes.rst:23
 msgid ""
 "Migrating from these versions is no longer supported by the :ref"
 ":`migration-tools`:"
-msgstr ""
+msgstr "これらのバージョンからの移行は、 :ref:`migration-tools` "
+"によってサポートされていない"
 
 #: ../../source/axonivy/migration/migration-notes.rst:25
 msgid ":dev-url:`Migrating from 8.0 to 10.0 </doc/10.0/migration-notes>`"
-msgstr ""
+msgstr ":dev-url:`8.0 から 10.0 へ移行 </doc/10.0/migration-notes>`"
 
 #: ../../source/axonivy/migration/migration-notes.rst:26
 msgid ":dev-url:`Migrating from 7.0 to 8.0 </doc/8.0.0/migration-notes>`"
-msgstr ""
+msgstr ":dev-url:` 7.0 から 8.0 へ移行 </doc/8.0.0/migration-notes>`"
 
 #: ../../source/axonivy/migration/migration-notes.rst:27
 msgid ":dev-url:`Migrating from 6.0 to 7.0 </doc/7.0.0/migration-notes>`"
-msgstr ""
+msgstr ":dev-url: 6.0 から 7.0 </doc/7.0.0/migration-notes> へ移行"
 
 #: ../../source/axonivy/migration/migration-notes.rst:28
 msgid ":dev-url:`Migrating from 5.1 to 6.0 </doc/6.0.0/migration-notes>`"
-msgstr ""
+msgstr ":dev-url:` 5.1 から 6.0 への移行 </doc/6.0.0/migration-notes>`"
 
 #: ../../source/axonivy/migration/migration-notes.rst:29
 msgid ":dev-url:`Migrating from 5.0 to 5.1 </doc/5.1.0/migration-notes>`"
-msgstr ""
+msgstr ":dev-url:` 5.0 から 5.1 へ移行 </doc/5.1.0/migration-notes>`"
 
 #: ../../source/axonivy/migration/migration-notes.rst:30
 msgid ":dev-url:`Migrating from 4.3 to 5.0 </doc/5.0.5/migration-notes>`"
-msgstr ""
+msgstr ":dev-url:` 4.3 から 5.0 への移行 </doc/5.0.5/migration-notes>`"
 
 #: ../../source/axonivy/migration/migration-notes.rst:32
 msgid ""
@@ -489,10 +608,14 @@ msgid ""
 "6.0 to 12.0, first install 8.0 and migrate your old Axon Ivy Engine from "
 "6.0 to 8.0 and then install 12.0 and migrate from 8.0 to 12.0."
 msgstr ""
+"古いバージョンをサポートし、次のバージョンに移行する新しいバージョンに移行し"
+"てください。 例えば、6.0 から 12.0 への移行のために、最初に 8.0 "
+"をインストールし、古い Axon の Ivy のエンジンを 6.0 から 8.0 に移行し、 12.0 "
+"に 8.0 から migrate をインストールします."
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:4
 msgid "Migrating from 12.0 to 13.1"
-msgstr ""
+msgstr "12.0から13.1への移行"
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:6
 msgid ""
@@ -500,29 +623,32 @@ msgid ""
 "higher. If you have an Axon Ivy Engine older than version 10.0 you need "
 "first to migrate to a newer version."
 msgstr ""
+"アップグレードは、Axon Ivy Engine 10.0 以降でのみサポートされています。 "
+"バージョン10.0よりも古いAxon Ivy "
+"Engineを持っている場合は、最初に新しいバージョンに移行する必要があります."
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:10
 msgid "License"
-msgstr ""
+msgstr "ライセンス"
 
 #: ../../source/axonivy/migration/_tagLegend.rst:7
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:12
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:20
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:47
 msgid "|tag-ops-changed|"
-msgstr ""
+msgstr "|タグアップ変更|"
 
 #: ../../../doc-build/<rst_epilog>:3
 msgid "tag-ops-changed"
-msgstr ""
+msgstr "タグ-ops-changed"
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:14
 msgid "You need to request a new license for Axon Ivy Engine 13.1."
-msgstr ""
+msgstr "Axon Ivy Engine 13.1 の新しいライセンスをリクエストする必要があります."
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:18
 msgid "Removal of Server Control Center for Windows"
-msgstr ""
+msgstr "Windows用のサーバーコントロールセンターの削除"
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:22
 msgid ""
@@ -532,39 +658,49 @@ msgid ""
 ":ref:`AxonIvyEngineService.exe <engine-service>` to register the Axon Ivy"
 " Engine as a Windows Service."
 msgstr ""
+"Windows用のサーバーコントロールセンターが削除されました。 "
+"Windows用のDockerを使用して、Axon Ivyエンジンを実行します。 "
+"DockerなしでWindows上でAxon Ivy Engineを実行したい場合は、:ref:`"
+"AxonIvyEngineService.exe <engine-service>`を使用して、Axon Ivy "
+"EngineをWindowsサービスとして登録できます."
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:29
 msgid "Support for Case Scope Override removed"
-msgstr ""
+msgstr "ケーススコープのサポート オーバーライド削除"
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:31
 msgid ""
 "Case scope overriding has been depreacted in LTS 8.0 and was now removed."
 " Use :ref:`strict_overriding` if you rely on case scope overriding."
 msgstr ""
+"LTS 8.0 にオーバーライドされたケーススコープが解釈され、削除されました。 "
+":ref:`strict_overriding` "
+"は、ケーススコープのオーバーライドに依存している場合は使用します."
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:36
 msgid "Removal of Serenity PrimeFaces themes"
-msgstr ""
+msgstr "セレニティプライムの除去 顔のテーマ"
 
 #: ../../source/axonivy/migration/_tagLegend.rst:40
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:38
 msgid "|tag-project-removed|"
-msgstr ""
+msgstr "|タグ・プロジェクト再開|"
 
 #: ../../../doc-build/<rst_epilog>:9
 msgid "tag-project-removed"
-msgstr ""
+msgstr "タグプロジェクト削除"
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:40
 msgid ""
 "We removed the Serenity themes including the :code:`serenity-ivy` theme. "
 "Please use the :ref:`freya-ivy <freya-themes>` theme instead."
 msgstr ""
+":code:`serenity-ivy`テーマを含むSerenityテーマを削除しました。 代わりに :ref"
+":`freya-ivy <freya-themes>` テーマを使用してください."
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:45
 msgid "Changed Runtime logger name"
-msgstr ""
+msgstr "変更されたランタイムロガー名"
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:49
 msgid ""
@@ -575,7 +711,7 @@ msgstr ""
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:57
 msgid "**Detail**"
-msgstr ""
+msgstr "**詳細**"
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:61
 msgid ""
@@ -585,51 +721,59 @@ msgid ""
 "new logger name is: :code:`runtime.[security context "
 "name].[category].[app name].[pm name]`."
 msgstr ""
+"セキュリティーコンテクスト名をランタイムロガー名に追加し、セキュリティコンテ"
+"クスト名後にカテゴリを移動しました。 "
+"これは、ロガー名をもっとユニークにし、セキュリティコンテキスト名でフィルタリ"
+"ングできるようにすることです。 新しいロガー名は:code:`runtime."
+"[セキュリティコンテキスト名] です。[カテゴリ]. [app name].[pm name]` です."
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:65
 msgid ""
 "In case you have a custom :code:`log4j2.xml` configuration, you need to "
 "adapt the  occurences of the runtime logger name in your configuration."
-msgstr ""
+msgstr "場合は、カスタム :code:`log4j2.xml` "
+"設定、設定のランタイムロガーの名前の発生を適応する必要があります."
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:67
 msgid "From something like this:"
-msgstr ""
+msgstr "こんなものから:"
 
 #: ../../source/axonivy/migration/migration-notes-120-131.rst:75
 msgid "To something like this:"
-msgstr ""
+msgstr "こんな感じに"
 
 #: ../../source/axonivy/migration/_tagLegend.rst:1
 msgid "**Tag Legend:**"
-msgstr ""
+msgstr "**タグ レジェンド:**"
 
 #: ../../source/axonivy/migration/_tagLegend.rst:3
 msgid "|tag-ops-wizard|"
-msgstr ""
+msgstr "|タグアップウィザード|"
 
 #: ../../../doc-build/<rst_epilog>:2
 msgid "tag-ops-wizard"
-msgstr ""
+msgstr "タグ-ops-wizard"
 
 #: ../../source/axonivy/migration/_tagLegend.rst:5
 msgid "This migration is handled by the :ref:`migration-wizard`."
-msgstr ""
+msgstr "このマイグレーションは :ref:`migration-wizard` によって処理されます."
 
 #: ../../source/axonivy/migration/_tagLegend.rst:9
 msgid ""
 "This migration will change something in the engine operation. If you are "
 "responsible for the operation of an engine, check if this change affects "
 "you."
-msgstr ""
+msgstr "エンジンの操作で何かを変えていきます。 "
+"エンジンの動作に責任がある場合、この変更があなたに影響を与えるかどうかを確認"
+"してください."
 
 #: ../../source/axonivy/migration/_tagLegend.rst:13
 msgid "|tag-ops-deprecated|"
-msgstr ""
+msgstr "|タグ-ops-deprecated"
 
 #: ../../../doc-build/<rst_epilog>:4
 msgid "tag-ops-deprecated"
-msgstr ""
+msgstr "タグ-ops-deprecated"
 
 #: ../../source/axonivy/migration/_tagLegend.rst:15
 msgid ""
@@ -637,14 +781,18 @@ msgid ""
 " functionality will be removed soon. If you are responsible for the "
 "operation of an engine, you should check if this change affects you."
 msgstr ""
+"このマイグレーションは、非推奨の動作や特徴を強調します。 "
+"その機能はすぐに削除されます。 "
+"エンジンの動作に責任がある場合、この変更があなたに影響を与えるかどうかを確認"
+"してください."
 
 #: ../../source/axonivy/migration/_tagLegend.rst:19
 msgid "|tag-ops-removed|"
-msgstr ""
+msgstr "|タグ-ops-removed"
 
 #: ../../../doc-build/<rst_epilog>:5
 msgid "tag-ops-removed"
-msgstr ""
+msgstr "タグ-ops-removed"
 
 #: ../../source/axonivy/migration/_tagLegend.rst:21
 msgid ""
@@ -652,42 +800,48 @@ msgid ""
 "for the engine operation. If you are responsible for the operation of an "
 "engine, check if this change affects you."
 msgstr ""
+"このマイグレーションは、エンジンの動作のために利用可能な動作や機能を削除しま"
+"す。 "
+"エンジンの動作に責任がある場合、この変更があなたに影響を与えるかどうかを確認"
+"してください."
 
 #: ../../source/axonivy/migration/_tagLegend.rst:25
 msgid "|tag-project-auto-convert|"
-msgstr ""
+msgstr "|タグ・プロジェクト・オートコンバート お問い合わせ"
 
 #: ../../../doc-build/<rst_epilog>:6
 msgid "tag-project-auto-convert"
-msgstr ""
+msgstr "タグ-project-auto-convert"
 
 #: ../../source/axonivy/migration/_tagLegend.rst:27
 msgid ""
 "This migration is handled by the :ref:`Project Conversion <project-"
 "convert>` automatically."
-msgstr ""
+msgstr "このマイグレーションは :ref:`Project Conversion <project-convert>` "
+"によって自動的に処理されます."
 
 #: ../../source/axonivy/migration/_tagLegend.rst:29
 msgid "|tag-project-changed|"
-msgstr ""
+msgstr "|タグ・プロジェクト変更|"
 
 #: ../../../doc-build/<rst_epilog>:7
 msgid "tag-project-changed"
-msgstr ""
+msgstr "タグプロジェクト変更"
 
 #: ../../source/axonivy/migration/_tagLegend.rst:31
 msgid ""
 "This migration will change a certain behavior in the projects. If you are"
 " a project developer, check if this change affects you."
-msgstr ""
+msgstr "このマイグレーションは、プロジェクト内の特定の動作を変更します。 "
+"プロジェクト開発者の方は、この変更が影響するかどうかを確認してください."
 
 #: ../../source/axonivy/migration/_tagLegend.rst:34
 msgid "|tag-project-deprecated|"
-msgstr ""
+msgstr "|タグ・プロジェクト非推奨|"
 
 #: ../../../doc-build/<rst_epilog>:8
 msgid "tag-project-deprecated"
-msgstr ""
+msgstr "タグプロジェクト非推奨"
 
 #: ../../source/axonivy/migration/_tagLegend.rst:36
 msgid ""
@@ -695,68 +849,74 @@ msgid ""
 " functionality will be removed soon. If you are a project developer, "
 "check if this change affects you."
 msgstr ""
+"このマイグレーションは、プロジェクトで機能やAPIを非推奨としてマークします。 "
+"その機能はすぐに削除されます。 "
+"プロジェクト開発者の方は、この変更が影響するかどうかを確認してください."
 
 #: ../../source/axonivy/migration/_tagLegend.rst:42
 msgid ""
 "This migration will remove a behavior or feature of a project. If you are"
 " a project developer, check if this change affects you."
-msgstr ""
+msgstr "このマイグレーションは、プロジェクトの動作や機能を削除します。 "
+"プロジェクト開発者の方は、この変更が影響するかどうかを確認してください."
 
 #: ../../source/axonivy/migration/migration-tools.rst:4
 msgid "Migration Tools"
-msgstr ""
+msgstr "移行ツール"
 
 #: ../../source/axonivy/migration/migration-tools.rst:6
 msgid "To ease the migration we provide two tools:"
-msgstr ""
+msgstr "移行を容易にするために、2つのツールを提供します"
 
 #: ../../source/axonivy/migration/migration-tools.rst:8
 msgid ""
 "The :ref:`migration-wizard` helps you migrate an Axon Ivy Engine to the "
 "latest version."
-msgstr ""
+msgstr ":ref:「マイグレーションウィザード」 Axon Ivy "
+"Engineを最新バージョンに移行するのに役立ちます."
 
 #: ../../source/axonivy/migration/migration-tools.rst:9
 msgid ""
 "The :ref:`project-convert-wizard` helps you migrate Axon Ivy projects to "
 "the latest version."
-msgstr ""
+msgstr ":ref:`プロジェクト変換ウィザード` 移行に役立つ Axon "
+"Ivyプロジェクトを最新バージョンへ."
 
 #: ../../source/axonivy/release-notes/index.rst:4
 msgid "Release Notes"
-msgstr ""
+msgstr "リリースノート"
 
 #: ../../source/axonivy/release-notes/index.rst:89
 msgid "Changes before 9.4.0"
-msgstr ""
+msgstr "9.4.0前の変更"
 
 #: ../../source/axonivy/system-requirements/browser.rst:4
 msgid "Web Browser"
-msgstr ""
+msgstr "ウェブブラウザ"
 
 #: ../../source/axonivy/system-requirements/browser.rst:6
 msgid "All popular web browsers are supported:"
-msgstr ""
+msgstr "すべての一般的なWebブラウザがサポートされています"
 
 #: ../../source/axonivy/system-requirements/browser.rst:8
 msgid "Firefox"
-msgstr ""
+msgstr "リモコン"
 
 #: ../../source/axonivy/system-requirements/browser.rst:9
 msgid "Chrome"
-msgstr ""
+msgstr "クローム"
 
 #: ../../source/axonivy/system-requirements/browser.rst:10
 msgid "Opera"
-msgstr ""
+msgstr "オペラ"
 
 #: ../../source/axonivy/system-requirements/browser.rst:11
 msgid "Safari"
-msgstr ""
+msgstr "サファリ"
 
 #: ../../source/axonivy/system-requirements/browser.rst:12
 msgid "Edge"
-msgstr ""
+msgstr "エッジ"
 
 #: ../../source/axonivy/system-requirements/browser.rst:14
 msgid ""
@@ -767,55 +927,56 @@ msgstr ""
 
 #: ../../source/axonivy/system-requirements/designer.rst:4
 msgid "Axon Ivy Designer"
-msgstr ""
+msgstr "アクソンアイビーデザイナー"
 
 #: ../../source/axonivy/system-requirements/designer.rst:6
 msgid "We recommend the following system setup for the Axon Ivy Designer:"
-msgstr ""
+msgstr "Axon Ivy Designer のシステム設定を推奨します"
 
 #: ../../source/axonivy/system-requirements/designer.rst:9
 #: ../../source/axonivy/system-requirements/engine.rst:11
 msgid "Hardware Requirements"
-msgstr ""
+msgstr "ハードウェア要件"
 
 #: ../../source/axonivy/system-requirements/designer.rst:11
 msgid ""
 "Hardware requirements may vary depending on how many projects you are "
 "working on in your workspace."
-msgstr ""
+msgstr "ハードウェアの要件は、ワークスペースで作業しているプロジェクト数によって異な"
+"ります."
 
 #: ../../source/axonivy/system-requirements/designer.rst
 msgid "Memory (RAM)"
-msgstr ""
+msgstr "メモリ(RAM)"
 
 #: ../../source/axonivy/system-requirements/designer.rst:13
 msgid "Minimum is 3 GB, we recommend using at least 8 GB."
-msgstr ""
+msgstr "最低は3 GBです、私達は少なくとも8 GBの使用を推薦します."
 
 #: ../../source/axonivy/system-requirements/designer.rst
 msgid "Disk Space"
-msgstr ""
+msgstr "ディスクスペース"
 
 #: ../../source/axonivy/system-requirements/designer.rst:14
 msgid "Minimum is 2 GB, we recommend at least 100 GB on a Solid State Disk (SSD)."
-msgstr ""
+msgstr "最小値は2GBで、ソリッドステートディスク(SSD)で100GB以上を推奨します."
 
 #: ../../source/axonivy/system-requirements/designer.rst
 msgid "Processor"
-msgstr ""
+msgstr "プロセッサ"
 
 #: ../../source/axonivy/system-requirements/designer.rst:15
 msgid "Minimum is 2 cores with 2 GHz, we recommend 8 cores with 2.5 GHz."
-msgstr ""
+msgstr "最小は2GHzの2コアで、2.5GHzの8コアを推奨します."
 
 #: ../../source/axonivy/system-requirements/designer.rst:18
 #: ../../source/axonivy/system-requirements/engine.rst:43
 msgid "Software Requirements"
-msgstr ""
+msgstr "ソフトウェア要件"
 
 #: ../../source/axonivy/system-requirements/designer.rst:20
 msgid "Axon Ivy Designer needs Java SE 21 to run."
-msgstr ""
+msgstr "Axon Ivy Designer は Java SE 21 を実行するために必要です."
 
 #: ../../source/axonivy/system-requirements/designer.rst:22
 msgid ""
@@ -825,15 +986,21 @@ msgid ""
 "to use Java SE 21 provided by your operating system or install `Eclipse "
 "Temurin <https://adoptium.net/>`_."
 msgstr ""
+"「Eclipse Temurin <https://adoptium.net/>`_ 」から提供されている Java SE 21 "
+"は、既に Windows および macOS のインストールに含まれています。 LinuxではJava "
+"SE 21は含まれていません。 オペレーティング システムが提供するJava SE 21 "
+"を使用するか、 Eclipse Temurin <https://adoptium.net/>`_ "
+"をインストールします."
 
 #: ../../source/axonivy/system-requirements/designer.rst:27
 msgid "We test Axon Ivy Designer with `Eclipse Temurin <https://adoptium.net/>`_."
-msgstr ""
+msgstr "Axon Ivy Designer を `Eclipse Temurin <https://adoptium.net/>`_ "
+"でテストします."
 
 #: ../../source/axonivy/system-requirements/designer.rst:30
 #: ../../source/axonivy/system-requirements/engine.rst:56
 msgid "Operating Systems"
-msgstr ""
+msgstr "オペレーティングシステム"
 
 #: ../../source/axonivy/system-requirements/designer.rst:32
 msgid ""
@@ -851,11 +1018,11 @@ msgstr ""
 
 #: ../../source/axonivy/system-requirements/designer.rst:36
 msgid "BETA! macOS Monterey x64 (tested on macOS Monterey 12.6.3)"
-msgstr ""
+msgstr "BETA! macOS Monterey x64 (macOS Monterey 12.6.3でテスト済み)"
 
 #: ../../source/axonivy/system-requirements/designer.rst:39
 msgid "**macOS**"
-msgstr ""
+msgstr "メニュー"
 
 #: ../../source/axonivy/system-requirements/designer.rst:41
 msgid ""
@@ -863,25 +1030,29 @@ msgid ""
 "currently not able to fix those bugs or provide support. Use at your own "
 "risk."
 msgstr ""
+"MacOS で実行すると、デザイナーは既知のバグがあります。 "
+"現在、これらのバグを修正したりサポートしたりすることはできません。 "
+"ご自身の責任でご使用ください."
 
 #: ../../source/axonivy/system-requirements/designer.rst:45
 msgid "Web Browsers"
-msgstr ""
+msgstr "ウェブブラウザ"
 
 #: ../../source/axonivy/system-requirements/designer.rst:47
 #: ../../source/axonivy/system-requirements/engine.rst:103
 msgid "See :ref:`browser-system-requirements`."
-msgstr ""
+msgstr ":ref:`browser-system-requirements` を参照してください."
 
 #: ../../source/axonivy/system-requirements/engine.rst:4
 msgid "Axon Ivy Engine"
-msgstr ""
+msgstr "アクソンアイビーエンジン"
 
 #: ../../source/axonivy/system-requirements/engine.rst:6
 msgid ""
 "The following system requirements highly depend on the number of Named "
 "Users, Concurrent Users, and deployed applications."
-msgstr ""
+msgstr "以下のシステム要件は、名前付きユーザー数、同時ユーザー数、およびデプロイされ"
+"たアプリケーションによって異なります."
 
 #: ../../source/axonivy/system-requirements/engine.rst:13
 msgid ""
@@ -889,52 +1060,60 @@ msgid ""
 "possible to integrate with an :ref:`external <opensearch-external>` "
 "OpenSearch instance. This also affects the minimum hardware requirements."
 msgstr ""
+"デフォルトでは、Axon Ivy Engine はバンドルされた OpenSearch "
+"サーバーを実行します。 :ref:`external <opensearch-external>` と統合できます。"
+" OpenSearch インスタンス。 これはまた最低ハードウェア条件に影響を与えます."
 
 #: ../../source/axonivy/system-requirements/engine.rst:19
 msgid "With bundled OpenSearch server (default)"
-msgstr ""
+msgstr "バンドルされたOpenSearchサーバー(デフォルト)を使って"
 
 #: ../../source/axonivy/system-requirements/engine.rst:20
 msgid "**Memory (RAM)**: Minimum is 8 GB, we recommend to use 32 GB."
-msgstr ""
+msgstr "**メモリー(RAM)**: 最低は8 GBです、私達は32 GBを使用することを推薦します."
 
 #: ../../source/axonivy/system-requirements/engine.rst:23
 msgid ""
 "**Disk Space**: Minimum is 20 GB, we recommend 100 GB on a Solid State "
 "Disk (SSD)."
-msgstr ""
+msgstr "**Disk Space**: 最低は20 GBです、私達はソリッド ステート ディスク(SSD)の100 "
+"GBを推薦します."
 
 #: ../../source/axonivy/system-requirements/engine.rst:26
 msgid ""
 "**Processors**: Minimum is 4 cores with 2 GHz, we recommend 16 cores with"
 " 2.5 GHz."
-msgstr ""
+msgstr "** プロセッサ**: 2 GHz の 4 つの中心で、私達は 2.5 GHz の 16 "
+"の中心を推薦します."
 
 #: ../../source/axonivy/system-requirements/engine.rst:31
 msgid "With an external OpenSearch server"
-msgstr ""
+msgstr "外部のOpenSearchサーバーを使って"
 
 #: ../../source/axonivy/system-requirements/engine.rst:32
 msgid "**Memory (RAM)**: Minimum is 4 GB. We recommend using at least 16 GB."
-msgstr ""
+msgstr "**メモリー(RAM)**: 最低は4 GBです。 16GB以上でご使用ください."
 
 #: ../../source/axonivy/system-requirements/engine.rst:35
 msgid ""
 "**Disk Space**: Minimum is 2 GB. We recommend 50 GB on a Solid State Disk"
 " (SSD)."
-msgstr ""
+msgstr "**Disk Space**:最低は2 GBです。 "
+"ソリッドステートディスク(SSD)で50GBを推奨します."
 
 #: ../../source/axonivy/system-requirements/engine.rst:38
 msgid ""
 "**Processors**: Minimum is 4 cores with 2 GHz. We recommend 16 cores with"
 " 2.5 GHz."
-msgstr ""
+msgstr "** プロセッサ**: 2つのGHzの4つの中心です。 2.5GHzで16コアを推奨します."
 
 #: ../../source/axonivy/system-requirements/engine.rst:45
 msgid ""
 "The Axon Ivy Engine needs Java SE 21 to run and is tested with `Eclipse "
 "Temurin <https://adoptium.net/>`_."
 msgstr ""
+"アクソンアイビーエンジンは、Java SE 21 を実行し、`Eclipse Temurin <https://"
+"adoptium.net/>`_ でテストする必要があります."
 
 #: ../../source/axonivy/system-requirements/engine.rst:48
 msgid ""
@@ -944,6 +1123,11 @@ msgid ""
 "your operating system or install `Eclipse Temurin "
 "<https://adoptium.net/>`_."
 msgstr ""
+"注:Java SE 21 `Eclipse Temurin <https://adoptium.net/>`_ は、"
+"Windowsのインストールと Docker コンテナに既に含まれています。 Linux では、"
+"Java SE 21 は含まれていません。 オペレーティング システムが提供するJava SE "
+"21 を使用するか、 Eclipse Temurin <https://adoptium.net/>`_ "
+"をインストールします."
 
 #: ../../source/axonivy/system-requirements/engine.rst:58
 msgid ""
@@ -951,14 +1135,17 @@ msgid ""
 " :ref:`restrictions <cluster-restrictions>` compared to the Standard "
 "Edition."
 msgstr ""
+"エンタープライズ版には :ref:`advantages <cluster>` "
+"もありますが、標準版と比較して、 :ref:`restrictions <cluster-restrictions>` "
+"もいくつかあります."
 
 #: ../../source/axonivy/system-requirements/engine.rst:62
 msgid "Engine Type"
-msgstr ""
+msgstr "エンジンのタイプ"
 
 #: ../../source/axonivy/system-requirements/engine.rst:62
 msgid "Container (Linux)"
-msgstr ""
+msgstr "コンテナ(Linux)"
 
 #: ../../source/axonivy/system-requirements/engine.rst:64
 msgid "Standard Edition"
@@ -967,19 +1154,19 @@ msgstr ""
 #: ../../source/axonivy/system-requirements/engine.rst:64
 #: ../../source/axonivy/system-requirements/engine.rst:66
 msgid "Yes"
-msgstr ""
+msgstr "お問い合わせ"
 
 #: ../../source/axonivy/system-requirements/engine.rst:66
 msgid "Enterprise Edition"
-msgstr ""
+msgstr "エンタープライズ版"
 
 #: ../../source/axonivy/system-requirements/engine.rst:66
 msgid "No"
-msgstr ""
+msgstr "なし"
 
 #: ../../source/axonivy/system-requirements/engine.rst:69
 msgid "**Windows**: Windows Server 2022 and 2019"
-msgstr ""
+msgstr "**Windows**:Windowsサーバー2022および2019年"
 
 #: ../../source/axonivy/system-requirements/engine.rst:72
 msgid "**Linux**: Linux x64 (tested on Ubuntu 24.04)"
@@ -987,27 +1174,27 @@ msgstr ""
 
 #: ../../source/axonivy/system-requirements/engine.rst:76
 msgid "System Database"
-msgstr ""
+msgstr "システムデータベース"
 
 #: ../../source/axonivy/system-requirements/engine.rst:79
 msgid "Database System"
-msgstr ""
+msgstr "データベースシステム"
 
 #: ../../source/axonivy/system-requirements/engine.rst:79
 msgid "Supported"
-msgstr ""
+msgstr "サポート"
 
 #: ../../source/axonivy/system-requirements/engine.rst:79
 msgid "Tested"
-msgstr ""
+msgstr "検査済み"
 
 #: ../../source/axonivy/system-requirements/engine.rst:81
 msgid "PostgreSQL"
-msgstr ""
+msgstr "ライブラリ"
 
 #: ../../source/axonivy/system-requirements/engine.rst:81
 msgid "14 - 17"
-msgstr ""
+msgstr "14 - 17"
 
 #: ../../source/axonivy/system-requirements/engine.rst:81
 msgid "14, 17"
@@ -1023,19 +1210,19 @@ msgstr ""
 
 #: ../../source/axonivy/system-requirements/engine.rst:83
 msgid "8.4, 9"
-msgstr ""
+msgstr "8.4, 9"
 
 #: ../../source/axonivy/system-requirements/engine.rst:85
 msgid "MariaDB (InnoDB)"
-msgstr ""
+msgstr "MariaDB(インノDB)"
 
 #: ../../source/axonivy/system-requirements/engine.rst:85
 msgid "10.11 - 11"
-msgstr ""
+msgstr "10.11 - 11"
 
 #: ../../source/axonivy/system-requirements/engine.rst:85
 msgid "10.11, 11"
-msgstr ""
+msgstr "10.11、11"
 
 #: ../../source/axonivy/system-requirements/engine.rst:87
 msgid "Microsoft SQL Server"
@@ -1043,11 +1230,11 @@ msgstr ""
 
 #: ../../source/axonivy/system-requirements/engine.rst:87
 msgid "2019, 2022"
-msgstr ""
+msgstr "2019年12月20日"
 
 #: ../../source/axonivy/system-requirements/engine.rst:89
 msgid "Oracle Database"
-msgstr ""
+msgstr "Oracleデータベース"
 
 #: ../../source/axonivy/system-requirements/engine.rst:89
 msgid "19, 23"
@@ -1055,25 +1242,27 @@ msgstr ""
 
 #: ../../source/axonivy/system-requirements/engine.rst:94
 msgid "OpenSearch"
-msgstr ""
+msgstr "オープン検索"
 
 #: ../../source/axonivy/system-requirements/engine.rst:96
 msgid ""
 "Version 2.19. Only required if you run your :ref:`own <opensearch-"
 "external>` OpenSearch instance!"
 msgstr ""
+"バージョン 2.19. :ref:`own <opensearch-external>` を実行する場合のみ必須 "
+"OpenSearchインスタンス!"
 
 #: ../../source/axonivy/system-requirements/engine.rst:101
 msgid "Browsers"
-msgstr ""
+msgstr "ブラウザ"
 
 #: ../../source/axonivy/system-requirements/index.rst:2
 msgid "System Requirements"
-msgstr ""
+msgstr "システム要件"
 
 #: ../../source/axonivy/system-requirements/neo.rst:4
 msgid "Axon Ivy NEO Designer"
-msgstr ""
+msgstr "Axon Ivy NEOデザイナー"
 
 #: ../../source/axonivy/system-requirements/neo.rst:6
 msgid ""
@@ -1081,20 +1270,24 @@ msgid ""
 "requirements>` that communicates with a :ref:`Axon Ivy Engine <engine-"
 "system-requirements>`."
 msgstr ""
+"ログイン デザイナーユーザは :ref:`web ブラウザー <browser-system-"
+"requirements>` と連携しています。 :ref:`Axon Ivy Engine <engine-system-"
+"requirements>` と通信します."
 
 #: ../../source/axonivy/try-axon-ivy.rst:2
 msgid "Try Axon Ivy!"
-msgstr ""
+msgstr "アクソンアイビーをお試しください!"
 
 #: ../../source/axonivy/try-axon-ivy.rst:4
 msgid ""
 "The Axon Ivy Designer is free of charge. You can start developing your "
 "projects right away."
-msgstr ""
+msgstr "Axon Ivy Designerは無料でご利用いただけます。 "
+"プロジェクトをすぐに開発できます."
 
 #: ../../source/axonivy/try-axon-ivy.rst:8
 msgid "We offer you two ways to try the Axon Ivy Engine:"
-msgstr ""
+msgstr "Axonのアイビー エンジンを試みる2つの方法を提供します:"
 
 #: ../../source/axonivy/try-axon-ivy.rst:10
 msgid ""
@@ -1102,6 +1295,10 @@ msgid ""
 " and an in-memory database. As long as you don't restart the engine, you "
 "can do everything you can do with a licensed, production-ready engine."
 msgstr ""
+"**デモモード** Axon Ivy "
+"Engineは、デモライセンスとメモリ内データベースを使用して箱から実行されます。 "
+"エンジンを再起動しない限り、ライセンス済み、生産準備エンジンでできることをす"
+"べて行うことができます."
 
 #: ../../source/axonivy/try-axon-ivy.rst:15
 msgid ""
@@ -1109,6 +1306,9 @@ msgid ""
 ":ref:`Getting Started <getting-started>` but skip the license "
 "installation."
 msgstr ""
+"この方法でAxon Ivyエンジンを試すには、エンジンガイドの章:ref:`Getting "
+"Started <getting-started>` "
+"に従って、ライセンスのインストールをスキップします."
 
 #: ../../source/axonivy/try-axon-ivy.rst:18
 msgid ""
@@ -1117,6 +1317,10 @@ msgid ""
 "https://www.axonivy.com/try-it-now. It comes complete with a two-week "
 "fully functional license and full web access to the engine."
 msgstr ""
+"**クラウドトライアル** 永続データベースでAxon Ivy "
+"Engineを試したい場合は、https://www.axonivy.com/try-it-"
+"nowを介してクラウドで試用エンジンを得ることができます。 "
+"2週間のフル機能ライセンスとエンジンへのフルウェブアクセスが完成しました."
 
 #: ../../source/axonivy/try-axon-ivy.rst:23
 msgid ""
@@ -1124,10 +1328,13 @@ msgid ""
 "Ivy Designer to develop your trial project and deploy it to the Axon Ivy "
 "Engine in the cloud."
 msgstr ""
+"このオプションでは、エンジンをインストールする必要はありません - "
+"ローカルAxon Ivy Designerを使用して、トライアルプロジェクトを開発し、"
+"クラウドでAxon Ivy Engineにデプロイします."
 
 #: ../../source/axonivy/what-axon-ivy.rst:4
 msgid "What is Axon Ivy?"
-msgstr ""
+msgstr "アクソンアイビーとは?"
 
 #: ../../source/axonivy/what-axon-ivy.rst:6
 msgid ""
@@ -1136,10 +1343,15 @@ msgid ""
 "typically responsible for the most precious business cases where "
 "companies produce value. Here is how we do it:"
 msgstr ""
+"Axon "
+"Ivyは、デジタルシステムで人間とのやり取りを簡素化し自動化するプロセスオートメ"
+"ーションプラットフォームです。 "
+"プラットフォームは、企業が価値を生み出す最も貴重なビジネスケースに通常責任を"
+"負います。 私たちがそれをする方法は次のとおりです"
 
 #: ../../source/axonivy/what-axon-ivy.rst:11
 msgid "**Visualize**"
-msgstr ""
+msgstr "仮想化* * 必須"
 
 #: ../../source/axonivy/what-axon-ivy.rst:12
 msgid ""
@@ -1149,10 +1361,16 @@ msgid ""
 " profiles become clearer, bottlenecks become obvious, ideas for effective"
 " improvements arise from anyone involved in the process."
 msgstr ""
+"当社のプラットフォームでは、**documentビジネスプロセスを迅速かつ直感的に行う"
+"ことができます**。 "
+"業務プロセスに関与するユーザー、役割、部門、および技術システムの共有ビューが"
+"、作業を改善します。 "
+"HRの採用プロファイルは、より明確になり、ボトルネックは明らかになり、プロセス"
+"に関与している人から生じる効果的な改善のためのアイデア."
 
 #: ../../source/axonivy/what-axon-ivy.rst:18
 msgid "**Automate**"
-msgstr ""
+msgstr "**オートメイト**"
 
 #: ../../source/axonivy/what-axon-ivy.rst:19
 msgid ""
@@ -1170,10 +1388,24 @@ msgid ""
 "contribute to the process by using their favorite devices such as "
 "smartphones or workstations."
 msgstr ""
+"文書化されたプロセスは良いです。 "
+"しかし、あなたが本当に望むことは**あなたの非常に貴重なプロセスを自動的に運転"
+"することです**。 "
+"従業員は、さまざまなツールからデータを検索し、フィルタリングすることにより、"
+"他の技術的なシステムにこのデータを供給することにより、中断されます。 "
+"値がよく知られているビジネスケースで生成されるにもかかわらず、プロセスを通じ"
+"て関与するユーザーを導く簡単なインターフェイスの欠如があります。 "
+"貴重なデータは、さまざまな専門技術システムに分離および保存されることが多いで"
+"す。 Axonのアイビーを使って、自動的にあなたのプロセスを運転できます。 "
+"当社のプラットフォームは、人、データ、技術システムを容易に制御できます。 "
+"ソフトウェアエンジニアを雇うことなく、プロセスを通じてユーザーをリードする初"
+"期アプリケーションを生成することができます。 "
+"スマートフォンやワークステーションなどのお気に入りのデバイスを使って、プロセ"
+"スに貢献できます."
 
 #: ../../source/axonivy/what-axon-ivy.rst:32
 msgid "**Improve**"
-msgstr ""
+msgstr "**改良**"
 
 #: ../../source/axonivy/what-axon-ivy.rst:33
 msgid ""
@@ -1188,6 +1420,16 @@ msgid ""
 "can advance your business constantly and effectively. The cost of "
 "business transformations become reasonable and predictable."
 msgstr ""
+"会社のデジタル化は、**時間を超えたりすることができます。 "
+"ビッグバンのソリューションよりも小型で予測可能な改良を得意としています。 "
+"Axon Ivy Platformを使用すると、既存の環境で素早く簡単に開始できます。 "
+"実行プロセスに貢献すべきユーザーに送信されたタスク通知だけで開始できます。 "
+"そして最終的に、プラットフォームは、すべてのビジネスインタラクションのための"
+"単一のインターフェイスになります。 "
+"業務プロセスの実行中に生成されるデータをもとに、KPIを測定することができます。"
+" "
+"これらのインサイトに基づいて、あなたは常にそして効果的にあなたのビジネスを進"
+"めることができます。 ビジネス変革のコストは、合理的かつ予測可能になります."
 
 #: ../../source/axonivy/what-axon-ivy.rst:44
 msgid ""
@@ -1197,16 +1439,23 @@ msgid ""
 "Engine <engine-guide>` that executes your business cases and provides a "
 "shared interface for process users."
 msgstr ""
+"Axon Ivy Platform は、 :ref:`Axon Ivy Designer <designer-guide>` "
+"で構成されており、自動化されたビジネスプロセスの描画、シミュレーション、実装"
+"、およびアプリケーション・サーバー :ref:`Axon Ivy Engine <engine-guide>` "
+"は、ビジネス・ケースを実行し、プロセス・ユーザーの共有インターフェイスを提供"
+"します."
 
 #: ../../source/axonivy/why-axon-ivy.rst:4
 msgid "Why Axon Ivy?"
-msgstr ""
+msgstr "なぜアクソンアイビー?"
 
 #: ../../source/axonivy/why-axon-ivy.rst:6
 msgid ""
 "Axon Ivy is exciting for everyone who participates in your digital "
 "transformation journey."
-msgstr ""
+msgstr "Axon "
+"Ivyは、デジタルトランスフォーメーションの旅に参加するすべての人にとってエキサ"
+"イティングです."
 
 #: ../../source/axonivy/why-axon-ivy.rst:9
 msgid ""
@@ -1215,6 +1464,9 @@ msgid ""
 "of your ship. Start with simple automations and transform essential parts"
 " of your business when you gain trust and confidence."
 msgstr ""
+"**ビジネス**:デジタルトランスフォーメーションの旅をスタートし、新たなビジネス"
+"チャンスを創出することができます。 あなたの船の船長は、まだあなたです。 "
+"簡単な自動化で始まり、信頼と自信を得ると、ビジネスの重要な部分を変革します."
 
 #: ../../source/axonivy/why-axon-ivy.rst:15
 msgid ""
@@ -1226,6 +1478,14 @@ msgid ""
 "engineer is required to create an already powerful application from "
 "scratch."
 msgstr ""
+"**ビジネスアナリスト**:迅速かつ直感的にプロセスを文書化することは容易ではあり"
+"ません。 "
+"プロセスシミュレーションにより、プロセスがどのように実行されるべきかを共通の"
+"ビューを持つかを確認できます。 "
+"プロセスのデータのためのシンプルな構造を設定し、生成されたフロントエンドで簡"
+"単に実行可能アプリケーションを取得することもできます。 "
+"ソフトウェアエンジニアはゼロから既に強力なアプリケーションを作成するために必"
+"要ありません."
 
 #: ../../source/axonivy/why-axon-ivy.rst:23
 msgid ""
@@ -1236,6 +1496,12 @@ msgid ""
 "always have the ability to break out of our predefined tooling and use "
 "advanced features of Tomcat, JPA, JSF, JAX-RS or whatever you require."
 msgstr ""
+"**Developer**:認証されたJavaフレームワークの豊富なスタックでアプリケーション"
+"を開発します。 "
+"お客様の技術評価の努力を最小限にし、一組のライブラリとIDEを完璧に組み合わせま"
+"す。 これにより、プロジェクトに素早くジャンプし、価値を提供できます。 "
+"事前に定義された工具細工を破り、Tomcat、JPA、JSF、JAX-"
+"RSの高度な機能を使用する能力が常にあります."
 
 #: ../../source/axonivy/why-axon-ivy.rst:30
 msgid ""
@@ -1245,4 +1511,10 @@ msgid ""
 "PostgreSQL) Effective monitoring and logging interfaces are provided to "
 "give you a safety that the application is healthy and accessible."
 msgstr ""
-
+"**操作**: "
+"一般的なプラットフォーム(Linux、Windows)用のパッケージを提供します。 "
+"大きく変化しないと、既存のシステムをオーケストします。 Oracle、Microsoft SQL "
+"Server、MariaDB、MySQL、PostgreSQLなど多くのデータベースシステムをサポートし"
+"ています。 "
+"効果的な監視とロギングインターフェイスは、アプリケーションが健康でアクセス可"
+"能な安全を与えるために提供されます."
