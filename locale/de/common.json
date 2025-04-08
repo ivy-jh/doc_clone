@@ -1,1 +1,8 @@
-{}
+{
+    "label": {
+        "add": "Hinzufügen",
+        "close": "Schließen",
+        "cancel": "Abbrechen",
+        "closeAll": "alle schliessen"
+    }
+}
